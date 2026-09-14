@@ -1,0 +1,3 @@
+schema_version: "0.1"
+record_schema: "../../specs/schemas/source-record.schema.json"
+sources: []

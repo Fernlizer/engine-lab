@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Fernlizer/engine-lab/specs/schemas/source-record.schema.json",
+  "title": "Engine Lab Source Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "type",
+    "manufacturer",
+    "model",
+    "market",
+    "year",
+    "url",
+    "local_file",
+    "primary_or_secondary",
+    "evidence_level",
+    "notes"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^SRC-[A-Z0-9][A-Z0-9-]*$"
+    },
+    "title": { "type": "string", "minLength": 1 },
+    "type": {
+      "enum": ["manual", "parts_catalog", "homologation", "technical_bulletin", "measurement_record", "dyno_report", "paper", "manufacturer_page", "technical_article", "community_post", "video", "other"]
+    },
+    "manufacturer": { "type": ["string", "null"], "minLength": 1 },
+    "model": { "type": ["string", "null"], "minLength": 1 },
+    "market": { "type": ["string", "null"], "minLength": 1 },
+    "year": {
+      "oneOf": [
+        { "type": "integer", "minimum": 1800, "maximum": 2200 },
+        { "type": "string", "minLength": 1 },
+        { "type": "null" }
+      ]
+    },
+    "url": { "type": ["string", "null"], "format": "uri" },
+    "local_file": {
+      "type": ["string", "null"],
+      "pattern": "^(sources/(manuals|parts-catalogs|papers|web)/).+"
+    },
+    "primary_or_secondary": { "enum": ["primary", "secondary"] },
+    "evidence_level": { "enum": ["A", "B", "C", "D", "E", "F"] },
+    "notes": { "type": ["string", "null"], "minLength": 1 }
+  },
+  "anyOf": [
+    { "required": ["url"], "properties": { "url": { "type": "string" } } },
+    { "required": ["local_file"], "properties": { "local_file": { "type": "string" } } }
+  ]
+}
