@@ -75,7 +75,7 @@ An empty `attributes` array means that the part is identified but no physical en
 
 This format does not weaken provenance and is not a simulation input. A reviewed extraction must be normalized to individual `part-record.schema.json` records before downstream model or validation use. Declared series ranges are completeness checks, not permission to synthesize missing members: every member must have been observed explicitly.
 
-Raw automated extractions use `stage: raw_extraction`, `status: candidate`, the exact category `source_url`, a SHA-256 hash of the fetched response bytes in `source_content_hash`, and a SHA-256 hash of normalized rows in `content_hash`. `model_code` is an opaque catalog identifier and does not imply a market or engineering equivalence.
+Raw automated extractions use `stage: raw_extraction`, `status: candidate`, the exact entry `source_url`, a SHA-256 hash of the fetched response bytes in `source_content_hash`, and a SHA-256 hash of normalized rows in `content_hash`. For multi-response interactive catalogs, `source_content_hash` covers the ordered response-body transcript and `source_observations` preserves each reference-level response hash. `model_code` is an opaque catalog identifier and does not imply a market or engineering equivalence.
 
 `completeness_status` describes whether required fields in one dataset remain unresolved. `_extraction-manifest.json`, validated by `extraction-run.schema.json`, separately reports whether every category requested for a bounded scraper run succeeded. A run can therefore be `complete` while its dataset is `partial`, for example when all requested pages were fetched but catalog quantity is not present in the observed source.
 

@@ -1,0 +1,455 @@
+{
+  "schema_version": "0.1",
+  "record_schema": "../../../../../specs/schemas/part-record.schema.json",
+  "dataset_id": "DATASET-HONDA-CBR150-TH-2021-E4",
+  "status": "working",
+  "scope": "Thai-market CBR150R model year 2021, PEC E-4 cam-chain/tensioner. Automated source responses observed 2026-09-14 and reviewed against all 12 exploded-view references. Prices are intentionally excluded.",
+  "records": [
+    {
+      "id": "PART-HONDA-14401-K56-N01-TH-2021-E4",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-4 CAM CHAIN - TENSIONER",
+        "reference_number": "1",
+        "page": null
+      },
+      "part_number": "14401-K56-N01",
+      "description": "โซ่ราวลิ้น (120 ข้อ)",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [
+        {
+          "parameter_id": "catalog.reported_link_count",
+          "parameter": {
+            "value": 120,
+            "unit": "1",
+            "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+            "evidence_level": "A",
+            "value_class": "factory",
+            "method": "factory_spec",
+            "status": "verified",
+            "notes": "The Thai description explicitly states 120 chain links; chain pitch and dimensions remain unknown."
+          },
+          "locator": {
+            "page": null,
+            "section": "E-4 reference 1"
+          }
+        }
+      ],
+      "status": "verified",
+      "notes": null
+    },
+    {
+      "id": "PART-HONDA-14510-K56-N00-TH-2021-E4",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-4 CAM CHAIN - TENSIONER",
+        "reference_number": "2",
+        "page": null
+      },
+      "part_number": "14510-K56-N00",
+      "description": "ยางกดโซ่ราวลิ้น",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [],
+      "status": "verified",
+      "notes": "Physical dimensions, material, and tolerances remain unknown."
+    },
+    {
+      "id": "PART-HONDA-14515-K56-N00-TH-2021-E4",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-4 CAM CHAIN - TENSIONER",
+        "reference_number": "3",
+        "page": null
+      },
+      "part_number": "14515-K56-N00",
+      "description": "แผ่นยึดยางกดโซ่ราวลิ้น",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [],
+      "status": "verified",
+      "notes": "Physical dimensions, material, and tolerances remain unknown."
+    },
+    {
+      "id": "PART-HONDA-14520-K94-T01-TH-2021-E4",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-4 CAM CHAIN - TENSIONER",
+        "reference_number": "4",
+        "page": null
+      },
+      "part_number": "14520-K94-T01",
+      "description": "ตัวปรับตั้งความตึง",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [],
+      "status": "verified",
+      "notes": "Physical dimensions, material, and tolerances remain unknown."
+    },
+    {
+      "id": "PART-HONDA-14546-K56-N00-TH-2021-E4",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-4 CAM CHAIN - TENSIONER",
+        "reference_number": "5",
+        "page": null
+      },
+      "part_number": "14546-K56-N00",
+      "description": "แผ่นบังคับเพลาลูกเบี้ยว B",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [],
+      "status": "verified",
+      "notes": "Physical dimensions, material, and tolerances remain unknown."
+    },
+    {
+      "id": "PART-HONDA-14560-KSP-910-TH-2021-E4",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-4 CAM CHAIN - TENSIONER",
+        "reference_number": "6",
+        "page": null
+      },
+      "part_number": "14560-KSP-910",
+      "description": "ปะเก็นตัวปรับตั้งความตึง",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [],
+      "status": "verified",
+      "notes": "Physical dimensions, material, and tolerances remain unknown."
+    },
+    {
+      "id": "PART-HONDA-14611-K56-N00-TH-2021-E4",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-4 CAM CHAIN - TENSIONER",
+        "reference_number": "7",
+        "page": null
+      },
+      "part_number": "14611-K56-N00",
+      "description": "ยางรองโซ่ราวลิ้น A",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [],
+      "status": "verified",
+      "notes": "Physical dimensions, material, and tolerances remain unknown."
+    },
+    {
+      "id": "PART-HONDA-90005-K56-N00-TH-2021-E4",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-4 CAM CHAIN - TENSIONER",
+        "reference_number": "8",
+        "page": null
+      },
+      "part_number": "90005-K56-N00",
+      "description": "โบ้ลท์หน้าแปลน, 6x6",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [
+        {
+          "parameter_id": "catalog.reported_size",
+          "parameter": {
+            "value": "6x6",
+            "unit": "mm",
+            "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+            "evidence_level": "A",
+            "value_class": "factory",
+            "method": "factory_spec",
+            "status": "verified",
+            "notes": "Size string preserved from the part description; dimensional axes and thread pitch are not inferred."
+          },
+          "locator": {
+            "page": null,
+            "section": "E-4 reference 8"
+          }
+        }
+      ],
+      "status": "verified",
+      "notes": null
+    },
+    {
+      "id": "PART-HONDA-91306-MG3-000-TH-2021-E4",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-4 CAM CHAIN - TENSIONER",
+        "reference_number": "9",
+        "page": null
+      },
+      "part_number": "91306-MG3-000",
+      "description": "โอริง, 1.5x9.5",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [
+        {
+          "parameter_id": "catalog.reported_size",
+          "parameter": {
+            "value": "1.5x9.5",
+            "unit": "mm",
+            "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+            "evidence_level": "A",
+            "value_class": "factory",
+            "method": "factory_spec",
+            "status": "verified",
+            "notes": "Size string preserved from the part description; dimensional axes and thread pitch are not inferred."
+          },
+          "locator": {
+            "page": null,
+            "section": "E-4 reference 9"
+          }
+        }
+      ],
+      "status": "verified",
+      "notes": null
+    },
+    {
+      "id": "PART-HONDA-95701-06014-00-TH-2021-E4",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-4 CAM CHAIN - TENSIONER",
+        "reference_number": "10",
+        "page": null
+      },
+      "part_number": "95701-06014-00",
+      "description": "โบลต์หน้าแปลน, 6x14",
+      "quantity": 2,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [
+        {
+          "parameter_id": "catalog.reported_size",
+          "parameter": {
+            "value": "6x14",
+            "unit": "mm",
+            "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+            "evidence_level": "A",
+            "value_class": "factory",
+            "method": "factory_spec",
+            "status": "verified",
+            "notes": "Size string preserved from the part description; dimensional axes and thread pitch are not inferred."
+          },
+          "locator": {
+            "page": null,
+            "section": "E-4 reference 10"
+          }
+        }
+      ],
+      "status": "verified",
+      "notes": null
+    },
+    {
+      "id": "PART-HONDA-96001-06014-00-TH-2021-E4",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-4 CAM CHAIN - TENSIONER",
+        "reference_number": "11",
+        "page": null
+      },
+      "part_number": "96001-06014-00",
+      "description": "โบลต์หน้าแปลน, 6x14",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [
+        {
+          "parameter_id": "catalog.reported_size",
+          "parameter": {
+            "value": "6x14",
+            "unit": "mm",
+            "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+            "evidence_level": "A",
+            "value_class": "factory",
+            "method": "factory_spec",
+            "status": "verified",
+            "notes": "Size string preserved from the part description; dimensional axes and thread pitch are not inferred."
+          },
+          "locator": {
+            "page": null,
+            "section": "E-4 reference 11"
+          }
+        }
+      ],
+      "status": "verified",
+      "notes": null
+    },
+    {
+      "id": "PART-HONDA-96001-06022-00-TH-2021-E4",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-4 CAM CHAIN - TENSIONER",
+        "reference_number": "12",
+        "page": null
+      },
+      "part_number": "96001-06022-00",
+      "description": "โบ้ลท์หน้าแปลน, 6x22",
+      "quantity": 2,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [
+        {
+          "parameter_id": "catalog.reported_size",
+          "parameter": {
+            "value": "6x22",
+            "unit": "mm",
+            "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+            "evidence_level": "A",
+            "value_class": "factory",
+            "method": "factory_spec",
+            "status": "verified",
+            "notes": "Size string preserved from the part description; dimensional axes and thread pitch are not inferred."
+          },
+          "locator": {
+            "page": null,
+            "section": "E-4 reference 12"
+          }
+        }
+      ],
+      "status": "verified",
+      "notes": null
+    }
+  ],
+  "unresolved_references": []
+}
+

@@ -1,4 +1,4 @@
-# CBR150RK 2021 Catalog Cross-check — E-1 to E-3
+# CBR150RK 2021 Catalog Cross-check — First Four Assemblies
 
 Date: 2026-09-14  
 Status: working comparison; not a compatibility determination
@@ -16,6 +16,11 @@ Rows are matched by the pair `(reference_number, part_number)`. Punctuation-only
 | E-1 | 5 | 4 | 4 | Secondary source omits PEC alternative `90017-KPP-900` at reference 3. |
 | E-2 | 24 | 25 | 20 | Reference 5 differs (`17111-K15-921` PEC vs `17111-K15-920` secondary); references 19, 21, and 22 differ only in dash formatting; secondary source supplies `94301-10120` at reference 20 where PEC extraction remains unresolved. |
 | E-3 | 73 | 73 | 72 | Reference 11 differs (`14771-K45-NL0` PEC vs `14771-MFL-000` secondary). |
+| PEC E-4 / secondary E-4 | 12 | 12 | 9 | All three non-exact pairs are punctuation-only forms at references 10–12; removing the final separator yields the same character sequence. Quantities are established only by PEC. |
+
+## Source-specific block numbering
+
+The Thai Honda PEC 2021 page exposes 18 engine images numbered continuously E-1 through E-18. The secondary catalog exposes 18 engine categories but uses E-1, E-2, E-3, E-4, E-5, E-6, E-8 through E-17, E-19, and E-23. Therefore block number is a source-local locator, not a cross-source assembly identifier. E-4 was compared only after its cam-chain/tensioner contents aligned; later assemblies must be paired by source title and part content before comparing rows.
 
 ## Interpretation boundary
 
@@ -29,4 +34,4 @@ Rows are matched by the pair `(reference_number, part_number)`. Punctuation-only
 1. Re-open PEC E-2 reference 20 and capture the returned list row or an explicit absence.
 2. Record catalog revision and serial/VIN applicability for both sources if exposed.
 3. Re-check E-2 reference 5 and E-3 reference 11 in an official parts catalog applicable to the exact Thai model code.
-4. Cross-check E-4 onward against PEC before promoting any candidate record.
+4. Pair PEC E-5 onward to the secondary categories by assembly content before comparing part rows.

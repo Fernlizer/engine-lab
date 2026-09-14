@@ -80,3 +80,14 @@ Use one entry per research session or material decision. Do not place unsupporte
 - Unknowns: catalog quantity for every secondary row, exact catalog revision, serial/VIN applicability, operator/manufacturer attribution for the public site, and engineering meaning of numeric strings embedded in descriptions
 - Decisions: grade the source C; keep every quantity `null`; derive block ID only from the catalog URL; preserve alternatives and repeated positions; exclude retail price; do not parse description numbers into engineering parameters until their meaning and unit can be established
 - Follow-up: cross-check E-4 onward in Thai Honda PEC, then normalize only verified records and explicitly reported dimensions into part records
+
+## 2026-09-14 — Reproducible Thai Honda PEC E-4 extraction
+
+- Researcher: Codex
+- Question: Can the public PEC workflow be reproduced without coordinate-based hotspot clicking, and does its E-4 assembly agree with the secondary catalog?
+- Sources added or reviewed: 12 reference-specific ASP.NET responses from Thai Honda PEC E-4 and the secondary CBR150RK E-4 candidate dataset
+- Findings: PEC returned 12 part rows with explicit quantities; nine part numbers match the secondary source exactly and three match after a punctuation-only dash difference; the cam chain description explicitly reports 120 links and five fastener/O-ring descriptions report size strings
+- Conflicts: no substantive part-number conflict established for this assembly; punctuation is preserved exactly in each source record
+- Unknowns: model code, serial/VIN range, chain pitch, dimensional-axis conventions, thread pitch, materials, tolerances, and supersession relationships
+- Decisions: store automated PEC responses as a candidate transcript with one SHA-256 per reference; promote the human-reviewed identities and quantities to verified part records; preserve reported numeric strings without inferring axes; identify block numbers as source-local locators
+- Follow-up: extract PEC E-5, determine content-based mapping after PEC E-6, and cross-check each assembly before normalization

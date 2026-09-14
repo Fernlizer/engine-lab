@@ -28,6 +28,10 @@
     "source_id": { "type": "string", "pattern": "^SRC-[A-Z0-9][A-Z0-9-]*$" },
     "source_url": { "type": "string", "format": "uri" },
     "source_content_hash": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "source_observations": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/sourceObservation" }
+    },
     "observed_at": { "type": "string", "format": "date" },
     "content_hash": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
     "applicability": {
@@ -88,6 +92,17 @@
     }
   ],
   "$defs": {
+    "sourceObservation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["reference_number", "source_url", "source_content_hash", "items"],
+      "properties": {
+        "reference_number": { "type": "string", "minLength": 1 },
+        "source_url": { "type": "string", "format": "uri" },
+        "source_content_hash": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "items": { "type": "integer", "minimum": 0 }
+      }
+    },
     "catalogItem": {
       "type": "object",
       "additionalProperties": false,

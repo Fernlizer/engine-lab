@@ -40,6 +40,7 @@ Questions below remain unresolved after the first official-source pass. Resolved
 - What licensing constraints apply to locally retaining manuals, catalogs, dyno plots, and web captures?
 - Which numeric patterns embedded in catalog descriptions are dimensions, tooth counts, standard bearing designations, oversize labels, or part-name identifiers, and how should each type be normalized without changing the source meaning?
 - Can catalog bill-of-material quantity be obtained from a reproducible public response, or must quantity remain PEC-only/directly transcribed evidence?
+- What is the verified assembly-name mapping between PEC E-1…E-18 and the secondary catalog's non-contiguous E-block identifiers?
 
 ## Documents requested from the owner
 
