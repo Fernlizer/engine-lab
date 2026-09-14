@@ -91,3 +91,25 @@ Use one entry per research session or material decision. Do not place unsupporte
 - Unknowns: model code, serial/VIN range, chain pitch, dimensional-axis conventions, thread pitch, materials, tolerances, and supersession relationships
 - Decisions: store automated PEC responses as a candidate transcript with one SHA-256 per reference; promote the human-reviewed identities and quantities to verified part records; preserve reported numeric strings without inferring axes; identify block numbers as source-local locators
 - Follow-up: extract PEC E-5, determine content-based mapping after PEC E-6, and cross-check each assembly before normalization
+
+## 2026-09-14 — Thai Honda PEC E-5 cylinder extraction
+
+- Researcher: Codex
+- Question: Does the PEC E-5 cylinder assembly agree with the secondary E-5 candidate and what numeric information is explicit?
+- Sources added or reviewed: three reference-specific Thai Honda PEC E-5 responses and secondary CBR150RK E-5
+- Findings: all three reference/part-number pairs agree exactly; PEC establishes quantities of one cylinder, one cylinder gasket, and two dowel pins; the dowel-pin description reports `10x12`
+- Conflicts: none observed in the compared identities
+- Unknowns: cylinder bore and geometry, liner and deck dimensions, gasket thickness, dowel dimensional axes, materials, tolerances, and wear limits
+- Decisions: verify PEC identities and quantities; preserve `10x12 mm` as a reported size string without assigning axes
+- Follow-up: extract PEC E-6, then establish the first shifted block mapping by assembly contents
+
+## 2026-09-14 — Thai Honda PEC E-6 right-crankcase-cover extraction
+
+- Researcher: Codex
+- Question: Does PEC E-6 align with the secondary right-crankcase-cover assembly and which catalog values can be verified?
+- Sources added or reviewed: 19 reference-specific Thai Honda PEC E-6 responses and secondary CBR150RK E-6
+- Findings: 16 exact reference/part-number matches and two punctuation-only differences; PEC establishes all 19 quantities and reports ten size strings in part descriptions
+- Conflicts: reference 6 is `11394-K56-V50` in PEC and `11394-K56-N00` in the secondary catalog
+- Unknowns: catalog revision/serial applicability behind the gasket conflict, all dimensional-axis conventions, thread pitches, materials, tolerances, and seal specifications beyond the reported strings
+- Decisions: use the PEC part identity for the Thai verified record; retain the secondary identity as a conflict; infer no supersession; preserve ten size strings as factory-reported values without assigning axes
+- Follow-up: inspect PEC E-7 contents and map it to the correct secondary assembly before row-level comparison

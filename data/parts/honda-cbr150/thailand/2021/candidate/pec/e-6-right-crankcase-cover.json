@@ -1,0 +1,300 @@
+{
+  "schema_version": "0.2",
+  "dataset_id": "DATASET-HONDA-CBR150R-TH-2021-PEC-E-6",
+  "stage": "raw_extraction",
+  "status": "candidate",
+  "evidence_level": "A",
+  "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+  "source_url": "https://pec.thaihonda.co.th/Applications/Common/Programs/StartApp.aspx",
+  "source_content_hash": "5a15a60f4bcd6470c1a7fa12fc645337a6e7d16871df46233952fbd6dbafe245",
+  "source_observations": [
+    {
+      "reference_number": "1",
+      "source_url": "https://pec.thaihonda.co.th/Applications/Common/Programs/StartApp.aspx",
+      "source_content_hash": "755817fe905228afc79660c89a8591ee5aa1a7704427d3e963e519e74f57e512",
+      "items": 1
+    },
+    {
+      "reference_number": "2",
+      "source_url": "https://pec.thaihonda.co.th/Applications/Common/Programs/StartApp.aspx",
+      "source_content_hash": "131fbac5b2751fc3bbb24935779b3bbd23b10faa48ed88ef69c289db83487198",
+      "items": 1
+    },
+    {
+      "reference_number": "3",
+      "source_url": "https://pec.thaihonda.co.th/Applications/Common/Programs/StartApp.aspx",
+      "source_content_hash": "d07ac85d07412cc7c3aa69576bf6a3700e0b6a85d63cb67e6c4ff85553f39984",
+      "items": 1
+    },
+    {
+      "reference_number": "4",
+      "source_url": "https://pec.thaihonda.co.th/Applications/Common/Programs/StartApp.aspx",
+      "source_content_hash": "d5d8fb2b7b4d3e01b2bc6cded3ac88edc437906616fe8c5077ee345aa890a1ad",
+      "items": 1
+    },
+    {
+      "reference_number": "5",
+      "source_url": "https://pec.thaihonda.co.th/Applications/Common/Programs/StartApp.aspx",
+      "source_content_hash": "52b7d2c101ad022083c3548eae7be55d88d1923d4e49ef51c2c65a08e240affe",
+      "items": 1
+    },
+    {
+      "reference_number": "6",
+      "source_url": "https://pec.thaihonda.co.th/Applications/Common/Programs/StartApp.aspx",
+      "source_content_hash": "06b012b6623dd8d166d4028c563750d446d967da51ce762133056bfbcee51eb6",
+      "items": 1
+    },
+    {
+      "reference_number": "7",
+      "source_url": "https://pec.thaihonda.co.th/Applications/Common/Programs/StartApp.aspx",
+      "source_content_hash": "773f0a51b2f7b12fba09d6d53cdf3aa1434740c66518d3f0adffd521b3674851",
+      "items": 1
+    },
+    {
+      "reference_number": "8",
+      "source_url": "https://pec.thaihonda.co.th/Applications/Common/Programs/StartApp.aspx",
+      "source_content_hash": "60642029b1ac555102cabc159956329c20cbecbace6219db9a3610e88a82436e",
+      "items": 1
+    },
+    {
+      "reference_number": "9",
+      "source_url": "https://pec.thaihonda.co.th/Applications/Common/Programs/StartApp.aspx",
+      "source_content_hash": "dfa4e2433785ac8679b668be3e816cfbf266d07bd401dcfc0370889fa241394d",
+      "items": 1
+    },
+    {
+      "reference_number": "10",
+      "source_url": "https://pec.thaihonda.co.th/Applications/Common/Programs/StartApp.aspx",
+      "source_content_hash": "4f100096be42468cd87efc3561b0adfb764b874734d8a4000c47d49e38533b80",
+      "items": 1
+    },
+    {
+      "reference_number": "11",
+      "source_url": "https://pec.thaihonda.co.th/Applications/Common/Programs/StartApp.aspx",
+      "source_content_hash": "756407198ce7bf2ed372e72b79ff1591724cdc676fd464cc05bc1a963429419a",
+      "items": 1
+    },
+    {
+      "reference_number": "12",
+      "source_url": "https://pec.thaihonda.co.th/Applications/Common/Programs/StartApp.aspx",
+      "source_content_hash": "ab699de91915a92feecbebea408735f069ce6561a7b093d40f380a289c5bf630",
+      "items": 1
+    },
+    {
+      "reference_number": "13",
+      "source_url": "https://pec.thaihonda.co.th/Applications/Common/Programs/StartApp.aspx",
+      "source_content_hash": "edbff48a54e59452a93cf7035a4552b695557f09857c48c4e7d797a2a30b47e9",
+      "items": 1
+    },
+    {
+      "reference_number": "14",
+      "source_url": "https://pec.thaihonda.co.th/Applications/Common/Programs/StartApp.aspx",
+      "source_content_hash": "801ad8486657a5cedb06563ef362a325eed9a6885d680edd30538982b88a67c7",
+      "items": 1
+    },
+    {
+      "reference_number": "15",
+      "source_url": "https://pec.thaihonda.co.th/Applications/Common/Programs/StartApp.aspx",
+      "source_content_hash": "a7a22f7e7845ab8d42acc5faed06a5bbffbc2f360c28c26002c06ad9d2e6b022",
+      "items": 1
+    },
+    {
+      "reference_number": "16",
+      "source_url": "https://pec.thaihonda.co.th/Applications/Common/Programs/StartApp.aspx",
+      "source_content_hash": "07b96877b9e0087674179f7d71a71226e82d037d54b1eb635d5aef2ac8401011",
+      "items": 1
+    },
+    {
+      "reference_number": "17",
+      "source_url": "https://pec.thaihonda.co.th/Applications/Common/Programs/StartApp.aspx",
+      "source_content_hash": "78059e5216802c5e354c8e4eb40da66812fd121262a6fe69c833285b98ac2470",
+      "items": 1
+    },
+    {
+      "reference_number": "18",
+      "source_url": "https://pec.thaihonda.co.th/Applications/Common/Programs/StartApp.aspx",
+      "source_content_hash": "46c35643e9ead543ec67e1d6485914fbf9b089b874a5eec221f276acf2a3611e",
+      "items": 1
+    },
+    {
+      "reference_number": "19",
+      "source_url": "https://pec.thaihonda.co.th/Applications/Common/Programs/StartApp.aspx",
+      "source_content_hash": "02ad8d0e4ee2f9399f488a588234af4c202156dfca3fa743b4c23837ab95c1dd",
+      "items": 1
+    }
+  ],
+  "observed_at": "2026-09-14",
+  "content_hash": "1e79dc45ecf9bf124036f83a5f1b26995da22f10b814c919b3ed6c76bc6e3255",
+  "applicability": {
+    "manufacturer": "Honda",
+    "model": "CBR150R",
+    "model_code": null,
+    "market": "thailand",
+    "year": 2021,
+    "serial_range": null,
+    "area_code": null
+  },
+  "catalog_locator": {
+    "block": "E-6",
+    "page": null
+  },
+  "completeness_status": "complete",
+  "price_policy": "PEC retail prices are excluded because they are volatile and are not engineering parameters.",
+  "items": [
+    {
+      "reference_number": "1",
+      "part_number": "11102-K56-N00",
+      "description": "ปลอกรองทางน้ำ,13x8",
+      "quantity": 1,
+      "status": "candidate",
+      "notes": "Automated transcription from Thai Honda PEC; pending human review."
+    },
+    {
+      "reference_number": "2",
+      "part_number": "11330-K45-N40",
+      "description": "ฝาครอบเครื่องด้านขวา",
+      "quantity": 1,
+      "status": "candidate",
+      "notes": "Automated transcription from Thai Honda PEC; pending human review."
+    },
+    {
+      "reference_number": "3",
+      "part_number": "11333-KGH-900",
+      "description": "แผ่นประกบยางรองฝาครอบเครื่องด้านขวา",
+      "quantity": 1,
+      "status": "candidate",
+      "notes": "Automated transcription from Thai Honda PEC; pending human review."
+    },
+    {
+      "reference_number": "4",
+      "part_number": "11334-K56-N00",
+      "description": "ยางรองฝาครอบเครื่องด้านขวา",
+      "quantity": 1,
+      "status": "candidate",
+      "notes": "Automated transcription from Thai Honda PEC; pending human review."
+    },
+    {
+      "reference_number": "5",
+      "part_number": "11336-K15-920",
+      "description": "ท่อระบายน้ำ",
+      "quantity": 1,
+      "status": "candidate",
+      "notes": "Automated transcription from Thai Honda PEC; pending human review."
+    },
+    {
+      "reference_number": "6",
+      "part_number": "11394-K56-V50",
+      "description": "ปะเก็นฝาครอบเครื่องด้านขวา",
+      "quantity": 1,
+      "status": "candidate",
+      "notes": "Automated transcription from Thai Honda PEC; pending human review."
+    },
+    {
+      "reference_number": "7",
+      "part_number": "15651-K15-920",
+      "description": "ก้านวัดระดับน้ำมันเครื่อง",
+      "quantity": 1,
+      "status": "candidate",
+      "notes": "Automated transcription from Thai Honda PEC; pending human review."
+    },
+    {
+      "reference_number": "8",
+      "part_number": "22810-K56-N00",
+      "description": "ขากดคลัทช์",
+      "quantity": 1,
+      "status": "candidate",
+      "notes": "Automated transcription from Thai Honda PEC; pending human review."
+    },
+    {
+      "reference_number": "9",
+      "part_number": "22815-KM7-700",
+      "description": "สปริงขากดคลัตช์",
+      "quantity": 1,
+      "status": "candidate",
+      "notes": "Automated transcription from Thai Honda PEC; pending human review."
+    },
+    {
+      "reference_number": "10",
+      "part_number": "22821-K56-N00",
+      "description": "ขายึดสายคลัตช์",
+      "quantity": 1,
+      "status": "candidate",
+      "notes": "Automated transcription from Thai Honda PEC; pending human review."
+    },
+    {
+      "reference_number": "11",
+      "part_number": "90001-K56-N00",
+      "description": "โบ้ลท์หน้าแปลน, 6x14",
+      "quantity": 2,
+      "status": "candidate",
+      "notes": "Automated transcription from Thai Honda PEC; pending human review."
+    },
+    {
+      "reference_number": "12",
+      "part_number": "90702-HC4-000",
+      "description": "ปลอกสลัก, 8x16",
+      "quantity": 2,
+      "status": "candidate",
+      "notes": "Automated transcription from Thai Honda PEC; pending human review."
+    },
+    {
+      "reference_number": "13",
+      "part_number": "91202-KSP-911",
+      "description": "ซีลกันน้ำมัน, 12x18x4",
+      "quantity": 1,
+      "status": "candidate",
+      "notes": "Automated transcription from Thai Honda PEC; pending human review."
+    },
+    {
+      "reference_number": "14",
+      "part_number": "91205-KF0-003",
+      "description": "ซีลกันน้ำมัน  12X20X5",
+      "quantity": 2,
+      "status": "candidate",
+      "notes": "Automated transcription from Thai Honda PEC; pending human review."
+    },
+    {
+      "reference_number": "15",
+      "part_number": "91307-035-000",
+      "description": "โอริง, 18x3",
+      "quantity": 1,
+      "status": "candidate",
+      "notes": "Automated transcription from Thai Honda PEC; pending human review."
+    },
+    {
+      "reference_number": "16",
+      "part_number": "91322-K56-N00",
+      "description": "โอริง, 12.8x1.8",
+      "quantity": 1,
+      "status": "candidate",
+      "notes": "Automated transcription from Thai Honda PEC; pending human review."
+    },
+    {
+      "reference_number": "17",
+      "part_number": "94520-22000",
+      "description": "คลิ๊ปล็อกภายใน, 22 มม.",
+      "quantity": 1,
+      "status": "candidate",
+      "notes": "Automated transcription from Thai Honda PEC; pending human review."
+    },
+    {
+      "reference_number": "18",
+      "part_number": "96001-06030-00",
+      "description": "โบ้ลท์หน้าแปลน, 6x30",
+      "quantity": 7,
+      "status": "candidate",
+      "notes": "Automated transcription from Thai Honda PEC; pending human review."
+    },
+    {
+      "reference_number": "19",
+      "part_number": "96001-06040-00",
+      "description": "โบ้ลท์หน้าแปลน, 6x40",
+      "quantity": 2,
+      "status": "candidate",
+      "notes": "Automated transcription from Thai Honda PEC; pending human review."
+    }
+  ],
+  "parameter_series": [],
+  "unresolved_references": [],
+  "notes": "Automated Thai Honda PEC extraction. Evidence level describes the primary source; candidate status requires human review before normalization."
+}

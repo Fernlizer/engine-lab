@@ -1,0 +1,729 @@
+{
+  "schema_version": "0.1",
+  "record_schema": "../../../../../specs/schemas/part-record.schema.json",
+  "dataset_id": "DATASET-HONDA-CBR150-TH-2021-E6",
+  "status": "working",
+  "scope": "Thai-market CBR150R model year 2021, PEC E-6 right crankcase cover. Automated source responses observed 2026-09-14 and reviewed against all 19 exploded-view references. Prices are intentionally excluded.",
+  "records": [
+    {
+      "id": "PART-HONDA-11102-K56-N00-TH-2021-E6",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-6 RIGHT CRANKCASE COVER",
+        "reference_number": "1",
+        "page": null
+      },
+      "part_number": "11102-K56-N00",
+      "description": "ปลอกรองทางน้ำ,13x8",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [
+        {
+          "parameter_id": "catalog.reported_size",
+          "parameter": {
+            "value": "13x8",
+            "unit": "mm",
+            "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+            "evidence_level": "A",
+            "value_class": "factory",
+            "method": "factory_spec",
+            "status": "verified",
+            "notes": "Size string preserved from the part description; dimensional axes and thread pitch are not inferred."
+          },
+          "locator": {
+            "page": null,
+            "section": "E-6 reference 1"
+          }
+        }
+      ],
+      "status": "verified",
+      "notes": null
+    },
+    {
+      "id": "PART-HONDA-11330-K45-N40-TH-2021-E6",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-6 RIGHT CRANKCASE COVER",
+        "reference_number": "2",
+        "page": null
+      },
+      "part_number": "11330-K45-N40",
+      "description": "ฝาครอบเครื่องด้านขวา",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [],
+      "status": "verified",
+      "notes": "Physical dimensions, material, and tolerances remain unknown."
+    },
+    {
+      "id": "PART-HONDA-11333-KGH-900-TH-2021-E6",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-6 RIGHT CRANKCASE COVER",
+        "reference_number": "3",
+        "page": null
+      },
+      "part_number": "11333-KGH-900",
+      "description": "แผ่นประกบยางรองฝาครอบเครื่องด้านขวา",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [],
+      "status": "verified",
+      "notes": "Physical dimensions, material, and tolerances remain unknown."
+    },
+    {
+      "id": "PART-HONDA-11334-K56-N00-TH-2021-E6",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-6 RIGHT CRANKCASE COVER",
+        "reference_number": "4",
+        "page": null
+      },
+      "part_number": "11334-K56-N00",
+      "description": "ยางรองฝาครอบเครื่องด้านขวา",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [],
+      "status": "verified",
+      "notes": "Physical dimensions, material, and tolerances remain unknown."
+    },
+    {
+      "id": "PART-HONDA-11336-K15-920-TH-2021-E6",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-6 RIGHT CRANKCASE COVER",
+        "reference_number": "5",
+        "page": null
+      },
+      "part_number": "11336-K15-920",
+      "description": "ท่อระบายน้ำ",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [],
+      "status": "verified",
+      "notes": "Physical dimensions, material, and tolerances remain unknown."
+    },
+    {
+      "id": "PART-HONDA-11394-K56-V50-TH-2021-E6",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-6 RIGHT CRANKCASE COVER",
+        "reference_number": "6",
+        "page": null
+      },
+      "part_number": "11394-K56-V50",
+      "description": "ปะเก็นฝาครอบเครื่องด้านขวา",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [],
+      "status": "verified",
+      "notes": "Secondary catalog reports 11394-K56-N00 at the corresponding assembly reference. Difference and supersession direction remain unknown."
+    },
+    {
+      "id": "PART-HONDA-15651-K15-920-TH-2021-E6",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-6 RIGHT CRANKCASE COVER",
+        "reference_number": "7",
+        "page": null
+      },
+      "part_number": "15651-K15-920",
+      "description": "ก้านวัดระดับน้ำมันเครื่อง",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [],
+      "status": "verified",
+      "notes": "Physical dimensions, material, and tolerances remain unknown."
+    },
+    {
+      "id": "PART-HONDA-22810-K56-N00-TH-2021-E6",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-6 RIGHT CRANKCASE COVER",
+        "reference_number": "8",
+        "page": null
+      },
+      "part_number": "22810-K56-N00",
+      "description": "ขากดคลัทช์",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [],
+      "status": "verified",
+      "notes": "Physical dimensions, material, and tolerances remain unknown."
+    },
+    {
+      "id": "PART-HONDA-22815-KM7-700-TH-2021-E6",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-6 RIGHT CRANKCASE COVER",
+        "reference_number": "9",
+        "page": null
+      },
+      "part_number": "22815-KM7-700",
+      "description": "สปริงขากดคลัตช์",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [],
+      "status": "verified",
+      "notes": "Physical dimensions, material, and tolerances remain unknown."
+    },
+    {
+      "id": "PART-HONDA-22821-K56-N00-TH-2021-E6",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-6 RIGHT CRANKCASE COVER",
+        "reference_number": "10",
+        "page": null
+      },
+      "part_number": "22821-K56-N00",
+      "description": "ขายึดสายคลัตช์",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [],
+      "status": "verified",
+      "notes": "Physical dimensions, material, and tolerances remain unknown."
+    },
+    {
+      "id": "PART-HONDA-90001-K56-N00-TH-2021-E6",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-6 RIGHT CRANKCASE COVER",
+        "reference_number": "11",
+        "page": null
+      },
+      "part_number": "90001-K56-N00",
+      "description": "โบ้ลท์หน้าแปลน, 6x14",
+      "quantity": 2,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [
+        {
+          "parameter_id": "catalog.reported_size",
+          "parameter": {
+            "value": "6x14",
+            "unit": "mm",
+            "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+            "evidence_level": "A",
+            "value_class": "factory",
+            "method": "factory_spec",
+            "status": "verified",
+            "notes": "Size string preserved from the part description; dimensional axes and thread pitch are not inferred."
+          },
+          "locator": {
+            "page": null,
+            "section": "E-6 reference 11"
+          }
+        }
+      ],
+      "status": "verified",
+      "notes": null
+    },
+    {
+      "id": "PART-HONDA-90702-HC4-000-TH-2021-E6",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-6 RIGHT CRANKCASE COVER",
+        "reference_number": "12",
+        "page": null
+      },
+      "part_number": "90702-HC4-000",
+      "description": "ปลอกสลัก, 8x16",
+      "quantity": 2,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [
+        {
+          "parameter_id": "catalog.reported_size",
+          "parameter": {
+            "value": "8x16",
+            "unit": "mm",
+            "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+            "evidence_level": "A",
+            "value_class": "factory",
+            "method": "factory_spec",
+            "status": "verified",
+            "notes": "Size string preserved from the part description; dimensional axes and thread pitch are not inferred."
+          },
+          "locator": {
+            "page": null,
+            "section": "E-6 reference 12"
+          }
+        }
+      ],
+      "status": "verified",
+      "notes": null
+    },
+    {
+      "id": "PART-HONDA-91202-KSP-911-TH-2021-E6",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-6 RIGHT CRANKCASE COVER",
+        "reference_number": "13",
+        "page": null
+      },
+      "part_number": "91202-KSP-911",
+      "description": "ซีลกันน้ำมัน, 12x18x4",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [
+        {
+          "parameter_id": "catalog.reported_size",
+          "parameter": {
+            "value": "12x18x4",
+            "unit": "mm",
+            "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+            "evidence_level": "A",
+            "value_class": "factory",
+            "method": "factory_spec",
+            "status": "verified",
+            "notes": "Size string preserved from the part description; dimensional axes and thread pitch are not inferred."
+          },
+          "locator": {
+            "page": null,
+            "section": "E-6 reference 13"
+          }
+        }
+      ],
+      "status": "verified",
+      "notes": null
+    },
+    {
+      "id": "PART-HONDA-91205-KF0-003-TH-2021-E6",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-6 RIGHT CRANKCASE COVER",
+        "reference_number": "14",
+        "page": null
+      },
+      "part_number": "91205-KF0-003",
+      "description": "ซีลกันน้ำมัน  12X20X5",
+      "quantity": 2,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [
+        {
+          "parameter_id": "catalog.reported_size",
+          "parameter": {
+            "value": "12X20X5",
+            "unit": "mm",
+            "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+            "evidence_level": "A",
+            "value_class": "factory",
+            "method": "factory_spec",
+            "status": "verified",
+            "notes": "Size string preserved from the part description; dimensional axes and thread pitch are not inferred."
+          },
+          "locator": {
+            "page": null,
+            "section": "E-6 reference 14"
+          }
+        }
+      ],
+      "status": "verified",
+      "notes": null
+    },
+    {
+      "id": "PART-HONDA-91307-035-000-TH-2021-E6",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-6 RIGHT CRANKCASE COVER",
+        "reference_number": "15",
+        "page": null
+      },
+      "part_number": "91307-035-000",
+      "description": "โอริง, 18x3",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [
+        {
+          "parameter_id": "catalog.reported_size",
+          "parameter": {
+            "value": "18x3",
+            "unit": "mm",
+            "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+            "evidence_level": "A",
+            "value_class": "factory",
+            "method": "factory_spec",
+            "status": "verified",
+            "notes": "Size string preserved from the part description; dimensional axes and thread pitch are not inferred."
+          },
+          "locator": {
+            "page": null,
+            "section": "E-6 reference 15"
+          }
+        }
+      ],
+      "status": "verified",
+      "notes": null
+    },
+    {
+      "id": "PART-HONDA-91322-K56-N00-TH-2021-E6",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-6 RIGHT CRANKCASE COVER",
+        "reference_number": "16",
+        "page": null
+      },
+      "part_number": "91322-K56-N00",
+      "description": "โอริง, 12.8x1.8",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [
+        {
+          "parameter_id": "catalog.reported_size",
+          "parameter": {
+            "value": "12.8x1.8",
+            "unit": "mm",
+            "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+            "evidence_level": "A",
+            "value_class": "factory",
+            "method": "factory_spec",
+            "status": "verified",
+            "notes": "Size string preserved from the part description; dimensional axes and thread pitch are not inferred."
+          },
+          "locator": {
+            "page": null,
+            "section": "E-6 reference 16"
+          }
+        }
+      ],
+      "status": "verified",
+      "notes": null
+    },
+    {
+      "id": "PART-HONDA-94520-22000-TH-2021-E6",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-6 RIGHT CRANKCASE COVER",
+        "reference_number": "17",
+        "page": null
+      },
+      "part_number": "94520-22000",
+      "description": "คลิ๊ปล็อกภายใน, 22 มม.",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [
+        {
+          "parameter_id": "catalog.reported_size",
+          "parameter": {
+            "value": "22",
+            "unit": "mm",
+            "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+            "evidence_level": "A",
+            "value_class": "factory",
+            "method": "factory_spec",
+            "status": "verified",
+            "notes": "Size string preserved from the part description; dimensional axes and thread pitch are not inferred."
+          },
+          "locator": {
+            "page": null,
+            "section": "E-6 reference 17"
+          }
+        }
+      ],
+      "status": "verified",
+      "notes": null
+    },
+    {
+      "id": "PART-HONDA-96001-06030-00-TH-2021-E6",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-6 RIGHT CRANKCASE COVER",
+        "reference_number": "18",
+        "page": null
+      },
+      "part_number": "96001-06030-00",
+      "description": "โบ้ลท์หน้าแปลน, 6x30",
+      "quantity": 7,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [
+        {
+          "parameter_id": "catalog.reported_size",
+          "parameter": {
+            "value": "6x30",
+            "unit": "mm",
+            "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+            "evidence_level": "A",
+            "value_class": "factory",
+            "method": "factory_spec",
+            "status": "verified",
+            "notes": "Size string preserved from the part description; dimensional axes and thread pitch are not inferred."
+          },
+          "locator": {
+            "page": null,
+            "section": "E-6 reference 18"
+          }
+        }
+      ],
+      "status": "verified",
+      "notes": null
+    },
+    {
+      "id": "PART-HONDA-96001-06040-00-TH-2021-E6",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-6 RIGHT CRANKCASE COVER",
+        "reference_number": "19",
+        "page": null
+      },
+      "part_number": "96001-06040-00",
+      "description": "โบ้ลท์หน้าแปลน, 6x40",
+      "quantity": 2,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [
+        {
+          "parameter_id": "catalog.reported_size",
+          "parameter": {
+            "value": "6x40",
+            "unit": "mm",
+            "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+            "evidence_level": "A",
+            "value_class": "factory",
+            "method": "factory_spec",
+            "status": "verified",
+            "notes": "Size string preserved from the part description; dimensional axes and thread pitch are not inferred."
+          },
+          "locator": {
+            "page": null,
+            "section": "E-6 reference 19"
+          }
+        }
+      ],
+      "status": "verified",
+      "notes": null
+    }
+  ],
+  "unresolved_references": [
+    {
+      "reference_number": "6",
+      "status": "disputed",
+      "notes": "PEC reports 11394-K56-V50 while the secondary catalog reports 11394-K56-N00 for the corresponding right-crankcase-cover assembly reference; no substitution direction is inferred."
+    }
+  ]
+}
+

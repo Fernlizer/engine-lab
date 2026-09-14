@@ -1,0 +1,76 @@
+{
+  "schema_version": "0.2",
+  "dataset_id": "DATASET-HONDA-CBR150R-TH-2021-PEC-E-5",
+  "stage": "raw_extraction",
+  "status": "candidate",
+  "evidence_level": "A",
+  "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+  "source_url": "https://pec.thaihonda.co.th/Applications/Common/Programs/StartApp.aspx",
+  "source_content_hash": "16d4bc9686f50a7cc93a2a75e87f337120a03140e05bacd1b7504f064d70a381",
+  "source_observations": [
+    {
+      "reference_number": "1",
+      "source_url": "https://pec.thaihonda.co.th/Applications/Common/Programs/StartApp.aspx",
+      "source_content_hash": "4da4befaa5ffdabd5831df157c36d403aecfdd25663a25f3c775698946a5c65c",
+      "items": 1
+    },
+    {
+      "reference_number": "2",
+      "source_url": "https://pec.thaihonda.co.th/Applications/Common/Programs/StartApp.aspx",
+      "source_content_hash": "036a808268a5e6cd92b1776f983cc3c2c280513d7a419f2fb2532c50a2caa1d6",
+      "items": 1
+    },
+    {
+      "reference_number": "3",
+      "source_url": "https://pec.thaihonda.co.th/Applications/Common/Programs/StartApp.aspx",
+      "source_content_hash": "b5ba1083e3df0aef233812538e8b51eba5b7be4b4cdc637ea721aeb19f183f66",
+      "items": 1
+    }
+  ],
+  "observed_at": "2026-09-14",
+  "content_hash": "8a06d038d60c4a60864713639ae7a5fb0fd655109e32bb598548223d51ce11bf",
+  "applicability": {
+    "manufacturer": "Honda",
+    "model": "CBR150R",
+    "model_code": null,
+    "market": "thailand",
+    "year": 2021,
+    "serial_range": null,
+    "area_code": null
+  },
+  "catalog_locator": {
+    "block": "E-5",
+    "page": null
+  },
+  "completeness_status": "complete",
+  "price_policy": "PEC retail prices are excluded because they are volatile and are not engineering parameters.",
+  "items": [
+    {
+      "reference_number": "1",
+      "part_number": "12100-K56-N00",
+      "description": "เสื้อสูบ",
+      "quantity": 1,
+      "status": "candidate",
+      "notes": "Automated transcription from Thai Honda PEC; pending human review."
+    },
+    {
+      "reference_number": "2",
+      "part_number": "12191-K56-N01",
+      "description": "ปะเก็นเสื้อสูบ",
+      "quantity": 1,
+      "status": "candidate",
+      "notes": "Automated transcription from Thai Honda PEC; pending human review."
+    },
+    {
+      "reference_number": "3",
+      "part_number": "94301-10120",
+      "description": "ปลอกสลัก, 10x12",
+      "quantity": 2,
+      "status": "candidate",
+      "notes": "Automated transcription from Thai Honda PEC; pending human review."
+    }
+  ],
+  "parameter_series": [],
+  "unresolved_references": [],
+  "notes": "Automated Thai Honda PEC extraction. Evidence level describes the primary source; candidate status requires human review before normalization."
+}

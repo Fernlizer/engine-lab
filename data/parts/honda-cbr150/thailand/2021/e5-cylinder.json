@@ -1,0 +1,68 @@
+{
+  "schema_version": "0.1",
+  "record_schema": "../../../../../specs/schemas/part-record.schema.json",
+  "dataset_id": "DATASET-HONDA-CBR150-TH-2021-E5",
+  "status": "working",
+  "scope": "Thai-market CBR150R model year 2021, PEC E-5 cylinder. Automated source responses observed 2026-09-14 and reviewed against all three exploded-view references. Prices are intentionally excluded.",
+  "records": [
+    {
+      "id": "PART-HONDA-12100-K56-N00-TH-2021-E5",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": { "block": "E-5 CYLINDER", "reference_number": "1", "page": null },
+      "part_number": "12100-K56-N00",
+      "description": "เสื้อสูบ",
+      "quantity": 1,
+      "applicability": [{ "model": "CBR150R", "market": "Thailand", "year": 2021, "serial_range": null, "area_code": null, "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed." }],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [],
+      "status": "verified",
+      "notes": "Bore, deck height, liner dimensions, material, tolerances, and wear limits remain unknown."
+    },
+    {
+      "id": "PART-HONDA-12191-K56-N01-TH-2021-E5",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": { "block": "E-5 CYLINDER", "reference_number": "2", "page": null },
+      "part_number": "12191-K56-N01",
+      "description": "ปะเก็นเสื้อสูบ",
+      "quantity": 1,
+      "applicability": [{ "model": "CBR150R", "market": "Thailand", "year": 2021, "serial_range": null, "area_code": null, "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed." }],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [],
+      "status": "verified",
+      "notes": "Thickness, compressed thickness, bore opening, and material remain unknown."
+    },
+    {
+      "id": "PART-HONDA-94301-10120-TH-2021-E5",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": { "block": "E-5 CYLINDER", "reference_number": "3", "page": null },
+      "part_number": "94301-10120",
+      "description": "ปลอกสลัก, 10x12",
+      "quantity": 2,
+      "applicability": [{ "model": "CBR150R", "market": "Thailand", "year": 2021, "serial_range": null, "area_code": null, "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed." }],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [{
+        "parameter_id": "catalog.reported_size",
+        "parameter": {
+          "value": "10x12",
+          "unit": "mm",
+          "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+          "evidence_level": "A",
+          "value_class": "factory",
+          "method": "factory_spec",
+          "status": "verified",
+          "notes": "Size string preserved from the part description; dimensional axes are not inferred."
+        },
+        "locator": { "page": null, "section": "E-5 reference 3" }
+      }],
+      "status": "verified",
+      "notes": null
+    }
+  ],
+  "unresolved_references": []
+}
