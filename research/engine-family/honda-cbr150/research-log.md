@@ -69,3 +69,14 @@ Use one entry per research session or material decision. Do not place unsupporte
 - Unknowns: cam profiles, lift, duration, journal dimensions, valve dimensions, spring free lengths/rates, materials, tolerances, masses, and wear limits
 - Decisions: retain every shim mapping explicitly; share catalog-level provenance in an extraction envelope; exclude live prices; do not infer compatibility from K45, K56, KT7, or ML0 part-number segments
 - Follow-up: extract E-4 cam-chain/tensioner, normalize E-3 records, and seek the applicable factory service manual for physical specifications
+
+## 2026-09-14 — Public CBR150RK catalog candidate extraction
+
+- Researcher: Codex
+- Question: Can the public secondary catalog provide a bounded, reproducible candidate inventory for all CBR150RK 2021 engine blocks without filling missing fields?
+- Sources added or reviewed: public `honda.bike-parts.co.th` CBR150RK 2021 model page and all 18 catalog URLs whose paths contain an E-series block identifier
+- Findings: 18 engine blocks produced 352 positional rows representing 327 distinct part numbers; all 352 references were observed; 228 descriptions contain one or more numeric strings; 17 part numbers occur more than once and were intentionally not deduplicated
+- Conflicts: E-1 through E-3 comparison with PEC found one omitted alternative, two substantive part-number differences, three dash-format differences, and one secondary-only candidate for an unresolved PEC reference
+- Unknowns: catalog quantity for every secondary row, exact catalog revision, serial/VIN applicability, operator/manufacturer attribution for the public site, and engineering meaning of numeric strings embedded in descriptions
+- Decisions: grade the source C; keep every quantity `null`; derive block ID only from the catalog URL; preserve alternatives and repeated positions; exclude retail price; do not parse description numbers into engineering parameters until their meaning and unit can be established
+- Follow-up: cross-check E-4 onward in Thai Honda PEC, then normalize only verified records and explicitly reported dimensions into part records

@@ -7,6 +7,7 @@ The schema makes provenance, unknowns, derivations, and assumptions machine-visi
 Normative JSON Schemas:
 
 - `specs/schemas/engineering-parameter.schema.json`
+- `specs/schemas/extraction-run.schema.json`
 - `specs/schemas/part-catalog-extraction.schema.json`
 - `specs/schemas/part-record.schema.json`
 - `specs/schemas/source-record.schema.json`
@@ -73,6 +74,10 @@ An empty `attributes` array means that the part is identified but no physical en
 `part-catalog-extraction.schema.json` is the compact, source-faithful intake format for interactive catalogs. Dataset-level source, applicability, block, and observation date apply to every contained row. Ordinary part rows live in `items`; repeated size variants live in `parameter_series`, whose members preserve every part-number-to-value mapping.
 
 This format does not weaken provenance and is not a simulation input. A reviewed extraction must be normalized to individual `part-record.schema.json` records before downstream model or validation use. Declared series ranges are completeness checks, not permission to synthesize missing members: every member must have been observed explicitly.
+
+Raw automated extractions use `stage: raw_extraction`, `status: candidate`, the exact category `source_url`, a SHA-256 hash of the fetched response bytes in `source_content_hash`, and a SHA-256 hash of normalized rows in `content_hash`. `model_code` is an opaque catalog identifier and does not imply a market or engineering equivalence.
+
+`completeness_status` describes whether required fields in one dataset remain unresolved. `_extraction-manifest.json`, validated by `extraction-run.schema.json`, separately reports whether every category requested for a bounded scraper run succeeded. A run can therefore be `complete` while its dataset is `partial`, for example when all requested pages were fetched but catalog quantity is not present in the observed source.
 
 ## Invariants
 

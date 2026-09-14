@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Fernlizer/engine-lab/specs/schemas/extraction-run.schema.json",
+  "title": "Engine Lab Extraction Run Manifest",
+  "description": "Operational completeness for one bounded catalog extraction run. This is distinct from engineering-field completeness in each dataset.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "run_status",
+    "evidence_level",
+    "observed_at",
+    "source_site",
+    "source_id",
+    "applicability",
+    "requested_blocks",
+    "discovered_category_count",
+    "discovered_blocks",
+    "attempted_category_count",
+    "successful_categories",
+    "failures"
+  ],
+  "properties": {
+    "schema_version": { "const": "0.1" },
+    "run_status": { "enum": ["complete", "partial", "failed"] },
+    "evidence_level": { "enum": ["A", "B", "C", "D", "E", "F", "UNKNOWN"] },
+    "observed_at": { "type": "string", "format": "date" },
+    "source_site": { "type": "string", "format": "uri" },
+    "source_id": { "type": "string", "pattern": "^SRC-[A-Z0-9][A-Z0-9-]*$" },
+    "applicability": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["manufacturer", "model", "model_code", "market", "year"],
+      "properties": {
+        "manufacturer": { "type": "string", "minLength": 1 },
+        "model": { "type": "string", "minLength": 1 },
+        "model_code": { "type": "string", "minLength": 1 },
+        "market": { "type": "string", "minLength": 1 },
+        "year": { "type": ["integer", "string"] }
+      }
+    },
+    "requested_blocks": {
+      "type": ["array", "null"],
+      "items": { "type": "string", "pattern": "^[EF]-[0-9]+[A-Z0-9]*$" },
+      "uniqueItems": true
+    },
+    "discovered_category_count": { "type": "integer", "minimum": 0 },
+    "discovered_blocks": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^[EF]-[0-9]+[A-Z0-9]*$" },
+      "uniqueItems": true
+    },
+    "attempted_category_count": { "type": "integer", "minimum": 0 },
+    "successful_categories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["block", "category", "source_url", "items", "file"],
+        "properties": {
+          "block": { "type": "string", "pattern": "^[EF]-[0-9]+[A-Z0-9]*$" },
+          "category": { "type": "string", "minLength": 1 },
+          "source_url": { "type": "string", "format": "uri" },
+          "items": { "type": "integer", "minimum": 0 },
+          "file": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "failures": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    }
+  }
+}

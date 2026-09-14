@@ -1,0 +1,218 @@
+{
+  "schema_version": "0.2",
+  "dataset_id": "DATASET-HONDA-CBR150RK-TH-2021-E-19",
+  "stage": "raw_extraction",
+  "status": "candidate",
+  "evidence_level": "C",
+  "source_id": "SRC-HONDA-BIKE-PARTS-TH-CBR150RK-2021",
+  "source_url": "https://honda.bike-parts.co.th/honda-motorcycle/150-MOTO/CBR/2021/CBR150RK/GEARSHIFT-DRUM/108614/E19/0/41739",
+  "source_content_hash": "ab0b5a7116ac7effa3aca752be230ab1c06736452a73aecc67007e886eb837f8",
+  "observed_at": "2026-09-14",
+  "content_hash": "47c0e01d7ed6c64b8a97457a1094fdb7a5289eea208d96d4141b6484750b45f8",
+  "applicability": {
+    "manufacturer": "Honda",
+    "model": "CBR150R",
+    "model_code": "CBR150RK",
+    "market": "thailand",
+    "year": 2021,
+    "serial_range": null,
+    "area_code": null
+  },
+  "catalog_locator": {
+    "block": "E-19 GEARSHIFT DRUM",
+    "page": null
+  },
+  "completeness_status": "partial",
+  "price_policy": "Observed retail prices are excluded from Engine Lab extraction records because they are volatile and are not engineering parameters.",
+  "items": [
+    {
+      "reference_number": "1",
+      "part_number": "24211-K56-N00",
+      "description": "ก้ามปูเปลี่ยนเกียร์ตัวขวา",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "2",
+      "part_number": "24212-KPP-900",
+      "description": "ก้ามปูเปลี่ยนเกียร์ตัวกลาง",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "3",
+      "part_number": "24213-K56-N00",
+      "description": "ก้ามปูเปลี่ยนเกียร์ตัวซ้าย",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "4",
+      "part_number": "24241-KPP-900",
+      "description": "แกนก้ามปูเปลี่ยนเกียร์",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "5",
+      "part_number": "24301-K45-N40",
+      "description": "กระปุกเกียร์",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "6",
+      "part_number": "24410-K45-N00",
+      "description": "แผ่นล็อกตำแหน่งเกียร์",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "7",
+      "part_number": "24430-K56-N00",
+      "description": "ขาบังคับเกียร์",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "8",
+      "part_number": "24436-K45-N40",
+      "description": "สปริงขาบังคับเกียร์",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "9",
+      "part_number": "24610-KPP-900",
+      "description": "แกนเปลี่ยนเกียร์",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "10",
+      "part_number": "24641-KBP-900",
+      "description": "สปริงแขนเปลี่ยนเกียร์",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "11",
+      "part_number": "24651-KTY-D30",
+      "description": "สปริงรั้งกลับ",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "12",
+      "part_number": "24652-035-000",
+      "description": "สลักสปริงรั้งกลับ",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "13",
+      "part_number": "35751-KPH-900",
+      "description": "สลักสวิตช์เปลี่ยนเกียร์",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "14",
+      "part_number": "35752-KPH-900",
+      "description": "สปริงสวิตช์เปลี่ยนเกียร์",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "15",
+      "part_number": "90022-MG8-000",
+      "description": "โบลต์ล็อกขาบังคับเกียร์",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "16",
+      "part_number": "90402-KW7-900",
+      "description": "แหวนรองกันรุน,  6 มม.",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "17",
+      "part_number": "90435-HB3-000",
+      "description": "แหวนรอง,  6.1 มม.",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "18",
+      "part_number": "91009-K31-901",
+      "description": "ลูกปืนตลับ,  6905 (NSK)",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "18",
+      "part_number": "91015-K56-N01",
+      "description": "ลูกปืนตลับ,  6905 (SKF)",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "19",
+      "part_number": "91209-KWC-901",
+      "description": "ซีลกันน้ำมัน,  12X22X7",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "20",
+      "part_number": "95701-0601600",
+      "description": "โบลต์หน้าแปลน,  6X16",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "21",
+      "part_number": "96220-30085",
+      "description": "สลัก,  3X8.5",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "21",
+      "part_number": "96220-30085",
+      "description": "สลัก,  3X8.5",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    }
+  ],
+  "parameter_series": [],
+  "unresolved_references": [
+    "catalog_quantity:one_or_more_items:unknown"
+  ],
+  "notes": "Automated extraction from honda.bike-parts.co.th. Model code: CBR150RK (opaque identifier). Evidence level C — secondary source, pending PEC cross-check. Block: E-19 GEARSHIFT DRUM."
+}

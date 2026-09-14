@@ -1,0 +1,186 @@
+{
+  "schema_version": "0.2",
+  "dataset_id": "DATASET-HONDA-CBR150RK-TH-2021-E-8",
+  "stage": "raw_extraction",
+  "status": "candidate",
+  "evidence_level": "C",
+  "source_id": "SRC-HONDA-BIKE-PARTS-TH-CBR150RK-2021",
+  "source_url": "https://honda.bike-parts.co.th/honda-motorcycle/150-MOTO/CBR/2021/CBR150RK/CLUTCH/108614/E8/0/41739",
+  "source_content_hash": "44cb816ca63b40cb37a88d35ad24e76760f430a54f6391a6ff497273241f1ce8",
+  "observed_at": "2026-09-14",
+  "content_hash": "bb461039b8d6206bac1a85b9df1576f8ac38e09abdd7a0dfb02c687d4ba1bf44",
+  "applicability": {
+    "manufacturer": "Honda",
+    "model": "CBR150R",
+    "model_code": "CBR150RK",
+    "market": "thailand",
+    "year": 2021,
+    "serial_range": null,
+    "area_code": null
+  },
+  "catalog_locator": {
+    "block": "E-8 CLUTCH",
+    "page": null
+  },
+  "completeness_status": "partial",
+  "price_policy": "Observed retail prices are excluded from Engine Lab extraction records because they are volatile and are not engineering parameters.",
+  "items": [
+    {
+      "reference_number": "1",
+      "part_number": "22100-K56-N01",
+      "description": "เรือนคลัทช์ตัวนอก",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "1",
+      "part_number": "22100-K56-N11",
+      "description": "เรือนคลัทช์ตัวนอก (75 ฟัน)",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "2",
+      "part_number": "22105-K56-N00",
+      "description": "ปลอกนำเรือนคลัตช์ตัวนอก",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "3",
+      "part_number": "22121-K56-N02",
+      "description": "เรือนคลัทช์ตัวกลาง",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "4",
+      "part_number": "22201-K56-N01",
+      "description": "แผ่นผ้าคลัทช์",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "5",
+      "part_number": "22321-KWW-742",
+      "description": "แผ่นเหล็กคลัตช์",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "6",
+      "part_number": "22350-K56-N02",
+      "description": "คลัตซ์",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "7",
+      "part_number": "22361-K56-N01",
+      "description": "แผ่นยกคลัทช์",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "8",
+      "part_number": "22401-K56-N01",
+      "description": "สปริงคลัทช์",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "9",
+      "part_number": "22849-K15-900",
+      "description": "ตัวยกคลัตช์",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "10",
+      "part_number": "23121-K56-N00",
+      "description": "เฟืองขับขั้นต้น A (23 ฟัน)(สีขาว)",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "10",
+      "part_number": "23122-K56-N00",
+      "description": "เฟืองขับขั้นต้น B 23 ฟัน สีน้ำเงิน",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "10",
+      "part_number": "23123-K56-N00",
+      "description": "เฟืองขับขั้นต้น C 23 ฟัน สีเหลือง",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "11",
+      "part_number": "90008-KT7-000",
+      "description": "โบ้ลท์หน้าแปลน,  6X25",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "12",
+      "part_number": "90202-KRM-840",
+      "description": "น็อตหน้าแปลนพิเศษ,  14 มม.",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "13",
+      "part_number": "90401-KY4-901",
+      "description": "แหวนรอง,  17 มม.",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "14",
+      "part_number": "90434-K56-N00",
+      "description": "แหวนรอง,  20 มม.",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "15",
+      "part_number": "90462-KWW-740",
+      "description": "แหวนรอง,  14.1 มม.",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "16",
+      "part_number": "91007-KE1-003",
+      "description": "ลูกปืนตลับ,  6903",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    }
+  ],
+  "parameter_series": [],
+  "unresolved_references": [
+    "catalog_quantity:one_or_more_items:unknown"
+  ],
+  "notes": "Automated extraction from honda.bike-parts.co.th. Model code: CBR150RK (opaque identifier). Evidence level C — secondary source, pending PEC cross-check. Block: E-8 CLUTCH."
+}

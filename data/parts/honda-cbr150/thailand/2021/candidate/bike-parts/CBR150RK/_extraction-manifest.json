@@ -1,0 +1,204 @@
+{
+  "schema_version": "0.1",
+  "run_status": "complete",
+  "evidence_level": "C",
+  "observed_at": "2026-09-14",
+  "source_site": "https://honda.bike-parts.co.th",
+  "source_id": "SRC-HONDA-BIKE-PARTS-TH-CBR150RK-2021",
+  "applicability": {
+    "manufacturer": "Honda",
+    "model": "CBR150R",
+    "model_code": "CBR150RK",
+    "market": "thailand",
+    "year": 2021
+  },
+  "requested_blocks": null,
+  "discovered_category_count": 55,
+  "discovered_blocks": [
+    "E-1",
+    "E-10",
+    "E-11",
+    "E-12",
+    "E-13",
+    "E-14",
+    "E-15",
+    "E-16",
+    "E-17",
+    "E-19",
+    "E-2",
+    "E-23",
+    "E-3",
+    "E-4",
+    "E-5",
+    "E-6",
+    "E-8",
+    "E-9",
+    "F-1",
+    "F-10",
+    "F-11",
+    "F-12",
+    "F-13",
+    "F-14",
+    "F-15",
+    "F-16",
+    "F-17",
+    "F-18",
+    "F-19",
+    "F-2",
+    "F-20",
+    "F-21",
+    "F-22",
+    "F-23",
+    "F-24",
+    "F-25",
+    "F-26",
+    "F-27",
+    "F-28",
+    "F-29",
+    "F-3",
+    "F-30",
+    "F-31",
+    "F-32",
+    "F-33",
+    "F-34",
+    "F-35",
+    "F-36",
+    "F-37",
+    "F-4",
+    "F-5",
+    "F-6",
+    "F-7",
+    "F-8",
+    "F-9"
+  ],
+  "attempted_category_count": 18,
+  "successful_categories": [
+    {
+      "block": "E-1",
+      "category": "CYLINDER HEAD COVER",
+      "source_url": "https://honda.bike-parts.co.th/honda-motorcycle/150-MOTO/CBR/2021/CBR150RK/CYLINDER-HEAD-COVER/108614/E1/0/41739",
+      "items": 4,
+      "file": "e-1-cylinder-head-cover.json"
+    },
+    {
+      "block": "E-2",
+      "category": "CYLINDER HEAD",
+      "source_url": "https://honda.bike-parts.co.th/honda-motorcycle/150-MOTO/CBR/2021/CBR150RK/CYLINDER-HEAD/108614/E2/0/41739",
+      "items": 25,
+      "file": "e-2-cylinder-head.json"
+    },
+    {
+      "block": "E-3",
+      "category": "CAMSHAFT - VALVE",
+      "source_url": "https://honda.bike-parts.co.th/honda-motorcycle/150-MOTO/CBR/2021/CBR150RK/CAMSHAFT--VALVE/108614/E3/0/41739",
+      "items": 73,
+      "file": "e-3-camshaft--valve.json"
+    },
+    {
+      "block": "E-4",
+      "category": "CAM CHAIN - TENSIONER",
+      "source_url": "https://honda.bike-parts.co.th/honda-motorcycle/150-MOTO/CBR/2021/CBR150RK/CAM-CHAIN--TENSIONER/108614/E4/0/41739",
+      "items": 12,
+      "file": "e-4-cam-chain--tensioner.json"
+    },
+    {
+      "block": "E-5",
+      "category": "CYLINDER",
+      "source_url": "https://honda.bike-parts.co.th/honda-motorcycle/150-MOTO/CBR/2021/CBR150RK/CYLINDER/108614/E5/0/41739",
+      "items": 3,
+      "file": "e-5-cylinder.json"
+    },
+    {
+      "block": "E-6",
+      "category": "RIGHT CRANKCASE COVER",
+      "source_url": "https://honda.bike-parts.co.th/honda-motorcycle/150-MOTO/CBR/2021/CBR150RK/RIGHT-CRANKCASE-COVER/108614/E6/0/41739",
+      "items": 19,
+      "file": "e-6-right-crankcase-cover.json"
+    },
+    {
+      "block": "E-8",
+      "category": "CLUTCH",
+      "source_url": "https://honda.bike-parts.co.th/honda-motorcycle/150-MOTO/CBR/2021/CBR150RK/CLUTCH/108614/E8/0/41739",
+      "items": 19,
+      "file": "e-8-clutch.json"
+    },
+    {
+      "block": "E-9",
+      "category": "STARTER MOTOR CLUTCH",
+      "source_url": "https://honda.bike-parts.co.th/honda-motorcycle/150-MOTO/CBR/2021/CBR150RK/STARTER-MOTOR-CLUTCH/108614/E9/0/41739",
+      "items": 6,
+      "file": "e-9-starter-motor-clutch.json"
+    },
+    {
+      "block": "E-10",
+      "category": "LEFT CRANKCASE COVER",
+      "source_url": "https://honda.bike-parts.co.th/honda-motorcycle/150-MOTO/CBR/2021/CBR150RK/LEFT-CRANKCASE-COVER/108614/E10/0/41739",
+      "items": 17,
+      "file": "e-10-left-crankcase-cover.json"
+    },
+    {
+      "block": "E-11",
+      "category": "ALTERNATOR",
+      "source_url": "https://honda.bike-parts.co.th/honda-motorcycle/150-MOTO/CBR/2021/CBR150RK/ALTERNATOR/108614/E11/0/41739",
+      "items": 9,
+      "file": "e-11-alternator.json"
+    },
+    {
+      "block": "E-12",
+      "category": "WATER PUMP",
+      "source_url": "https://honda.bike-parts.co.th/honda-motorcycle/150-MOTO/CBR/2021/CBR150RK/WATER-PUMP/108614/E12/0/41739",
+      "items": 14,
+      "file": "e-12-water-pump.json"
+    },
+    {
+      "block": "E-13",
+      "category": "STARTER MOTOR",
+      "source_url": "https://honda.bike-parts.co.th/honda-motorcycle/150-MOTO/CBR/2021/CBR150RK/STARTER-MOTOR/108614/E13/0/41739",
+      "items": 12,
+      "file": "e-13-starter-motor.json"
+    },
+    {
+      "block": "E-14",
+      "category": "OIL PUMP",
+      "source_url": "https://honda.bike-parts.co.th/honda-motorcycle/150-MOTO/CBR/2021/CBR150RK/OIL-PUMP/108614/E14/0/41739",
+      "items": 8,
+      "file": "e-14-oil-pump.json"
+    },
+    {
+      "block": "E-15",
+      "category": "CRANKCASE COVER",
+      "source_url": "https://honda.bike-parts.co.th/honda-motorcycle/150-MOTO/CBR/2021/CBR150RK/CRANKCASE-COVER/108614/E15/0/41739",
+      "items": 21,
+      "file": "e-15-crankcase-cover.json"
+    },
+    {
+      "block": "E-16",
+      "category": "CRANKSHAFT - PISTON",
+      "source_url": "https://honda.bike-parts.co.th/honda-motorcycle/150-MOTO/CBR/2021/CBR150RK/CRANKSHAFT--PISTON/108614/E16/0/41739",
+      "items": 27,
+      "file": "e-16-crankshaft--piston.json"
+    },
+    {
+      "block": "E-17",
+      "category": "GEARBOX",
+      "source_url": "https://honda.bike-parts.co.th/honda-motorcycle/150-MOTO/CBR/2021/CBR150RK/GEARBOX/108614/E17/0/41739",
+      "items": 41,
+      "file": "e-17-gearbox.json"
+    },
+    {
+      "block": "E-19",
+      "category": "GEARSHIFT DRUM",
+      "source_url": "https://honda.bike-parts.co.th/honda-motorcycle/150-MOTO/CBR/2021/CBR150RK/GEARSHIFT-DRUM/108614/E19/0/41739",
+      "items": 23,
+      "file": "e-19-gearshift-drum.json"
+    },
+    {
+      "block": "E-23",
+      "category": "THROTTLE BODY",
+      "source_url": "https://honda.bike-parts.co.th/honda-motorcycle/150-MOTO/CBR/2021/CBR150RK/THROTTLE-BODY/108614/E23/0/41739",
+      "items": 19,
+      "file": "e-23-throttle-body.json"
+    }
+  ],
+  "failures": []
+}

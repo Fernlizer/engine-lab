@@ -1,0 +1,234 @@
+{
+  "schema_version": "0.2",
+  "dataset_id": "DATASET-HONDA-CBR150RK-TH-2021-E-2",
+  "stage": "raw_extraction",
+  "status": "candidate",
+  "evidence_level": "C",
+  "source_id": "SRC-HONDA-BIKE-PARTS-TH-CBR150RK-2021",
+  "source_url": "https://honda.bike-parts.co.th/honda-motorcycle/150-MOTO/CBR/2021/CBR150RK/CYLINDER-HEAD/108614/E2/0/41739",
+  "source_content_hash": "5c528398faaef24d4facfde0d0fc631503e86f6f95f6b9bf96a958434f424e11",
+  "observed_at": "2026-09-14",
+  "content_hash": "f57fc67b2ff2a3c646d96851accb6e740255320e66022753b5d8dfa1e4c729eb",
+  "applicability": {
+    "manufacturer": "Honda",
+    "model": "CBR150R",
+    "model_code": "CBR150RK",
+    "market": "thailand",
+    "year": 2021,
+    "serial_range": null,
+    "area_code": null
+  },
+  "catalog_locator": {
+    "block": "E-2 CYLINDER HEAD",
+    "page": null
+  },
+  "completeness_status": "partial",
+  "price_policy": "Observed retail prices are excluded from Engine Lab extraction records because they are volatile and are not engineering parameters.",
+  "items": [
+    {
+      "reference_number": "1",
+      "part_number": "12010-K56-N00",
+      "description": "ฝาสูบทั้งชุด",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "2",
+      "part_number": "12205-KYJ-305",
+      "description": "ปลอกวาล์วไอเสีย (O.S.)",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "3",
+      "part_number": "12207-KYJ-900",
+      "description": "โบลต์กันรั่ว,  12 มม.",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "4",
+      "part_number": "12251-K56-N01",
+      "description": "ปะเก็นฝาสูบ (มาตรฐาน/0.25/0.50)",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "4",
+      "part_number": "12251-K56-N02",
+      "description": "ปะเก็นฝาสูบ (มาตรฐาน/0.25/0.50)",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "5",
+      "part_number": "17111-K15-920",
+      "description": "ท่อไอดี",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "6",
+      "part_number": "19064-KPP-900",
+      "description": "ข้อต่อท่อน้ำ",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "7",
+      "part_number": "31919-K25-602",
+      "description": "หัวเทียน (U27EPR-N9)(DENSO)",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "7",
+      "part_number": "31919-K25-601",
+      "description": "หัวเทียน (MR9C-9N)(NGK)",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "8",
+      "part_number": "37870-KZR-601",
+      "description": "ชุดตัวตรวจจับอุณหภูมิน้ำหล่อเย็น",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "9",
+      "part_number": "90004-GHB-660",
+      "description": "โบลต์หน้าแปลน,  6X22",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "10",
+      "part_number": "90017-K56-N00",
+      "description": "โบลต์หน้าแปลน,  6X32",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "11",
+      "part_number": "90019-K56-N00",
+      "description": "โบลต์หน้าแปลน,  6X40",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "12",
+      "part_number": "90202-KGB-610",
+      "description": "น็อตหน้าแปลน,  8 มม.",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "13",
+      "part_number": "90418-KYJ-900",
+      "description": "แหวนรอง,  12.2X17X1.5",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "14",
+      "part_number": "90483-K15-900",
+      "description": "แหวนรอง,  8 มม.",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "15",
+      "part_number": "90702-KRM-840",
+      "description": "ปลอกสลัก,  8X14",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "15",
+      "part_number": "94301-08140",
+      "description": "ปลอกสลัก,  8X14",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "16",
+      "part_number": "91301-K56-N00",
+      "description": "โอริงท่อไอดี",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "17",
+      "part_number": "91301-KV7-671",
+      "description": "โอริง,  14.8X1.9 (ARAI)",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "18",
+      "part_number": "91307-PLC-004",
+      "description": "โอริง,  9.5X1.9",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "19",
+      "part_number": "92900-080250E",
+      "description": "โบลต์สตัด,  8X25",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "20",
+      "part_number": "94301-10120",
+      "description": "DOWEL PIN,  10X12",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "21",
+      "part_number": "95701-0602200",
+      "description": "โบลต์หน้าแปลน,  6X22",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "22",
+      "part_number": "95701-0611500",
+      "description": "โบลต์หน้าแปลน,  6X115",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    }
+  ],
+  "parameter_series": [],
+  "unresolved_references": [
+    "catalog_quantity:one_or_more_items:unknown"
+  ],
+  "notes": "Automated extraction from honda.bike-parts.co.th. Model code: CBR150RK (opaque identifier). Evidence level C — secondary source, pending PEC cross-check. Block: E-2 CYLINDER HEAD."
+}

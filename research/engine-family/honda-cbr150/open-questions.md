@@ -38,6 +38,8 @@ Questions below remain unresolved after the first official-source pass. Resolved
 - What canonical units and unit-conversion library should later be adopted?
 - How will repeated measurements, uncertainty, and instrument calibration be represented?
 - What licensing constraints apply to locally retaining manuals, catalogs, dyno plots, and web captures?
+- Which numeric patterns embedded in catalog descriptions are dimensions, tooth counts, standard bearing designations, oversize labels, or part-name identifiers, and how should each type be normalized without changing the source meaning?
+- Can catalog bill-of-material quantity be obtained from a reproducible public response, or must quantity remain PEC-only/directly transcribed evidence?
 
 ## Documents requested from the owner
 

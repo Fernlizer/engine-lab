@@ -1,0 +1,202 @@
+{
+  "schema_version": "0.2",
+  "dataset_id": "DATASET-HONDA-CBR150RK-TH-2021-E-15",
+  "stage": "raw_extraction",
+  "status": "candidate",
+  "evidence_level": "C",
+  "source_id": "SRC-HONDA-BIKE-PARTS-TH-CBR150RK-2021",
+  "source_url": "https://honda.bike-parts.co.th/honda-motorcycle/150-MOTO/CBR/2021/CBR150RK/CRANKCASE-COVER/108614/E15/0/41739",
+  "source_content_hash": "543fc5e9a7e8a1ec16f84715c2ac108a3746b07560080d09a6971bc1bea04cab",
+  "observed_at": "2026-09-14",
+  "content_hash": "e180f3245a58a17e5d1372bbb8541b10f502ecf8e2df89de53fe9dec60e04566",
+  "applicability": {
+    "manufacturer": "Honda",
+    "model": "CBR150R",
+    "model_code": "CBR150RK",
+    "market": "thailand",
+    "year": 2021,
+    "serial_range": null,
+    "area_code": null
+  },
+  "catalog_locator": {
+    "block": "E-15 CRANKCASE COVER",
+    "page": null
+  },
+  "completeness_status": "partial",
+  "price_policy": "Observed retail prices are excluded from Engine Lab extraction records because they are volatile and are not engineering parameters.",
+  "items": [
+    {
+      "reference_number": "1",
+      "part_number": "11100-K56-305",
+      "description": "เรือนเครื่องยนต์ด้านขวา",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "2",
+      "part_number": "11200-K56-305",
+      "description": "ชุดเรือนเครื่องยนต์ด้านซ้าย",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "3",
+      "part_number": "14521-KPP-900",
+      "description": "ตัวกดลูกปืน",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "4",
+      "part_number": "14531-KPP-900",
+      "description": "สปริงตัวกดลูกปืน",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "5",
+      "part_number": "15421-KSP-910",
+      "description": "ตะแกรงกรองน้ำมันเครื่อง",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "6",
+      "part_number": "35759-K45-N41",
+      "description": "ชุดสวิตช์ไฟเปลี่ยนเกียร์",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "7",
+      "part_number": "37700-K56-N01",
+      "description": "ชุดตัวตรวจจับความเร็ว",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "8",
+      "part_number": "90031-K56-N00",
+      "description": "โบลต์สตัด",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "9",
+      "part_number": "90403-KPP-900",
+      "description": "แหวนรอง,  3X11X1.0",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "10",
+      "part_number": "90407-259-000",
+      "description": "แหวนรอง,  12.5X20",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "11",
+      "part_number": "90673-SK7-A01",
+      "description": "เข็มขัดรัดสายไฟ (สีดำ)",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "12",
+      "part_number": "90701-HC4-000",
+      "description": "ปลอกสลัก,  8X12",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "13",
+      "part_number": "92800-12000",
+      "description": "โบลต์ถ่ายน้ำมัน,  12 มม.",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "14",
+      "part_number": "94520-12000",
+      "description": "คลิปล็อกภายใน,  12 มม.",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "15",
+      "part_number": "95701-0603500",
+      "description": "โบลต์หน้าแปลน,  6X35",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "16",
+      "part_number": "95701-0606500",
+      "description": "โบลต์หน้าแปลน,  6X65",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "17",
+      "part_number": "96001-0601600",
+      "description": "โบลต์หน้าแปลน,  6X16",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "18",
+      "part_number": "96001-0601800",
+      "description": "โบลต์หน้าแปลน,  6X18",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "19",
+      "part_number": "96001-0604000",
+      "description": "โบลต์หน้าแปลน,  6X40",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "20",
+      "part_number": "96001-0606500",
+      "description": "โบลต์หน้าแปลน,  6X65",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "21",
+      "part_number": "91301-HP2-671",
+      "description": "โอริง,  21X2.4",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    }
+  ],
+  "parameter_series": [],
+  "unresolved_references": [
+    "catalog_quantity:one_or_more_items:unknown"
+  ],
+  "notes": "Automated extraction from honda.bike-parts.co.th. Model code: CBR150RK (opaque identifier). Evidence level C — secondary source, pending PEC cross-check. Block: E-15 CRANKCASE COVER."
+}

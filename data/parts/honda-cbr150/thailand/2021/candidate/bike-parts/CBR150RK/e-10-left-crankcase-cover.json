@@ -1,0 +1,170 @@
+{
+  "schema_version": "0.2",
+  "dataset_id": "DATASET-HONDA-CBR150RK-TH-2021-E-10",
+  "stage": "raw_extraction",
+  "status": "candidate",
+  "evidence_level": "C",
+  "source_id": "SRC-HONDA-BIKE-PARTS-TH-CBR150RK-2021",
+  "source_url": "https://honda.bike-parts.co.th/honda-motorcycle/150-MOTO/CBR/2021/CBR150RK/LEFT-CRANKCASE-COVER/108614/E10/0/41739",
+  "source_content_hash": "74cde1ee7b3d7e74e0cd2dedacd8e54f1e4e8a44d4c03cc8a9de457ac67b5788",
+  "observed_at": "2026-09-14",
+  "content_hash": "b5ae5560b6f83e8a34ee151a89808faecec8c9851f47bb43f99b1120544fe135",
+  "applicability": {
+    "manufacturer": "Honda",
+    "model": "CBR150R",
+    "model_code": "CBR150RK",
+    "market": "thailand",
+    "year": 2021,
+    "serial_range": null,
+    "area_code": null
+  },
+  "catalog_locator": {
+    "block": "E-10 LEFT CRANKCASE COVER",
+    "page": null
+  },
+  "completeness_status": "partial",
+  "price_policy": "Observed retail prices are excluded from Engine Lab extraction records because they are volatile and are not engineering parameters.",
+  "items": [
+    {
+      "reference_number": "1",
+      "part_number": "11341-K56-N00",
+      "description": "ฝาครอบเครื่องด้านซ้าย",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "2",
+      "part_number": "11360-K15-920",
+      "description": "ฝาครอบเครื่องด้านหลังซ้าย",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "3",
+      "part_number": "11395-K56-N00",
+      "description": "ปะเก็นฝาครอบเครื่องด้านซ้าย",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "4",
+      "part_number": "32123-K56-N00",
+      "description": "ตัวกันสายไฟสวิตช์บอกตำแหน่งเกียร์",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "5",
+      "part_number": "90084-K03-N30",
+      "description": "ฝาปิดช่องดูจังหวะจุดระเบิด,  14 มม.",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "6",
+      "part_number": "90087-KGH-900",
+      "description": "ฝาปิดรูหมุนเพลาข้อเหวี่ยง,  30 มม.",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "7",
+      "part_number": "90702-KFM-900",
+      "description": "ปลอกสลัก,  8X12",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "7",
+      "part_number": "90702-KFM-900",
+      "description": "ปลอกสลัก,  8X12",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "8",
+      "part_number": "91323-K56-N00",
+      "description": "โอริง,  13.8X2.4",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "9",
+      "part_number": "91356-KWV-000",
+      "description": "โอริง,  30 มม.",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "10",
+      "part_number": "96001-0603000",
+      "description": "โบลต์หน้าแปลน,  6X30",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "10",
+      "part_number": "96001-0603000",
+      "description": "โบลต์หน้าแปลน,  6X30",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "10",
+      "part_number": "96001-0603000",
+      "description": "โบลต์หน้าแปลน,  6X30",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "11",
+      "part_number": "96001-0603500",
+      "description": "โบลต์หน้าแปลน,  6X35",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "11",
+      "part_number": "96001-0603500",
+      "description": "โบลต์หน้าแปลน,  6X35",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "12",
+      "part_number": "96001-0604000",
+      "description": "โบลต์หน้าแปลน,  6X40",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "12",
+      "part_number": "96001-0604000",
+      "description": "โบลต์หน้าแปลน,  6X40",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    }
+  ],
+  "parameter_series": [],
+  "unresolved_references": [
+    "catalog_quantity:one_or_more_items:unknown"
+  ],
+  "notes": "Automated extraction from honda.bike-parts.co.th. Model code: CBR150RK (opaque identifier). Evidence level C — secondary source, pending PEC cross-check. Block: E-10 LEFT CRANKCASE COVER."
+}

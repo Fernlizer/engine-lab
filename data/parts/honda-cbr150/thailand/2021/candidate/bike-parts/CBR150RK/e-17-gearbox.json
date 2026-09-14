@@ -1,0 +1,362 @@
+{
+  "schema_version": "0.2",
+  "dataset_id": "DATASET-HONDA-CBR150RK-TH-2021-E-17",
+  "stage": "raw_extraction",
+  "status": "candidate",
+  "evidence_level": "C",
+  "source_id": "SRC-HONDA-BIKE-PARTS-TH-CBR150RK-2021",
+  "source_url": "https://honda.bike-parts.co.th/honda-motorcycle/150-MOTO/CBR/2021/CBR150RK/GEARBOX/108614/E17/0/41739",
+  "source_content_hash": "243082a3431d131cd3add780edc000758b6ce7b9d688668568b9cb82e65de66f",
+  "observed_at": "2026-09-14",
+  "content_hash": "602c56e07d40c2799fff8d9b3b4b6992f5c4b09db3435d8f6c3678721eda7e4e",
+  "applicability": {
+    "manufacturer": "Honda",
+    "model": "CBR150R",
+    "model_code": "CBR150RK",
+    "market": "thailand",
+    "year": 2021,
+    "serial_range": null,
+    "area_code": null
+  },
+  "catalog_locator": {
+    "block": "E-17 GEARBOX",
+    "page": null
+  },
+  "completeness_status": "partial",
+  "price_policy": "Observed retail prices are excluded from Engine Lab extraction records because they are volatile and are not engineering parameters.",
+  "items": [
+    {
+      "reference_number": "1",
+      "part_number": "23211-K56-N00",
+      "description": "เพลาขับ (12 ฟัน)",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "2",
+      "part_number": "23221-K56-N00",
+      "description": "เพลาตาม",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "3",
+      "part_number": "23415-HB3-000",
+      "description": "บุช,  15 มม.",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "4",
+      "part_number": "23421-K56-N00",
+      "description": "เฟืองตามเกียร์ 1 (37 ฟัน)",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "5",
+      "part_number": "23431-K56-N00",
+      "description": "เฟืองขับเกียร์ 2 (17 ฟัน)",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "6",
+      "part_number": "23441-K56-N00",
+      "description": "เฟืองตามเกียร์ 2 (33 ฟัน)",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "7",
+      "part_number": "23442-K56-N00",
+      "description": "บุช,  20 มม.",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "8",
+      "part_number": "23451-K56-N00",
+      "description": "เฟืองขับเกียร์ 3 และ 4 20 ฟัน22 ฟัน",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "9",
+      "part_number": "23461-K56-N00",
+      "description": "เฟืองตามเกียร์ 3 (30 ฟัน)",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "10",
+      "part_number": "23465-K56-N00",
+      "description": "บุชเซาะร่อง,  20 มม.",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "11",
+      "part_number": "23481-K56-N00",
+      "description": "เฟืองตามเกียร์ 4 (27 ฟัน)",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "12",
+      "part_number": "23491-K56-N00",
+      "description": "เฟืองขับเกียร์ 5 (24 ฟัน)",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "13",
+      "part_number": "23492-KSP-910",
+      "description": "ปลอกรองเซาะร่อง,  17X20X11",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "14",
+      "part_number": "23501-K56-N00",
+      "description": "เฟืองตามเกียร์ 5 (25 ฟัน)",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "15",
+      "part_number": "23502-KTY-D30",
+      "description": "บุช,  20 มม.",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "16",
+      "part_number": "23511-K56-N00",
+      "description": "เฟืองขับเกียร์ 6 (26 ฟัน)",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "17",
+      "part_number": "23521-K56-N00",
+      "description": "เฟืองตามเกียร์ 6 (24 ฟัน)",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "18",
+      "part_number": "23801-KBP-900",
+      "description": "สเตอร์หน้า (15 ฟัน)",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "19",
+      "part_number": "23811-KR3-600",
+      "description": "แผ่นประกบสเตอร์หน้า",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "20",
+      "part_number": "90084-041-000",
+      "description": "โบลต์ยึดแผ่นประกบสเตอร์หน้า",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "21",
+      "part_number": "90401-K56-N00",
+      "description": "แหวนรองล็อก,  17 มม.",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "22",
+      "part_number": "90401-KTY-D30",
+      "description": "แหวนรองกันรุน,  17 มม.",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "23",
+      "part_number": "90401-KVK-900",
+      "description": "แหวนรองล็อก,  20X19X1.0",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "24",
+      "part_number": "90402-K56-N00",
+      "description": "แหวนรองเซาะร่อง,  17 มม.",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "25",
+      "part_number": "90402-KVK-900",
+      "description": "แหวนรองกันรุน,  20X19X1.0",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "26",
+      "part_number": "90412-187-000",
+      "description": "แหวนกันรุน,  15 มม.",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "27",
+      "part_number": "90412-K56-N00",
+      "description": "แหวนรองพิเศษ,  15 มม.",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "28",
+      "part_number": "90441-KW7-930",
+      "description": "แผ่นล็อกตลับลูกปืน",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "29",
+      "part_number": "90451-K56-N00",
+      "description": "แหวนรองเซาะร่อง,  20 มม.",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "30",
+      "part_number": "90452-KGH-900",
+      "description": "แหวนรองพิเศษ,  12 มม.",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "31",
+      "part_number": "90452-KRM-840",
+      "description": "แหวนเซาะร่อง,  17X23X1.6",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "32",
+      "part_number": "90454-KPH-900",
+      "description": "แหวนรอง,  25X20.2X1",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "33",
+      "part_number": "90601-KRM-840",
+      "description": "คลิปล็อก,  17 มม.",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "34",
+      "part_number": "90605-KVS-900",
+      "description": "แหวนล็อก,  20 มม.",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "35",
+      "part_number": "91004-K56-N01",
+      "description": "ลูกปืนตลับ,  6202U (SKF)",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "36",
+      "part_number": "91005-K56-N01",
+      "description": "ลูกปืนตลับ,  6201U (SKF)",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "37",
+      "part_number": "91006-K56-N01",
+      "description": "ลูกปืนตลับ,  6203 (SKF)",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "37",
+      "part_number": "91006-K56-N02",
+      "description": "ลูกปืนตลับ,  6203 (FUJIKOSHI)",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "38",
+      "part_number": "91010-K56-N01",
+      "description": "ลูกปืนตลับ,  6204 (SKF)",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "39",
+      "part_number": "91216-KGH-901",
+      "description": "ซีลกันน้ำมัน,  20X34X7",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    },
+    {
+      "reference_number": "40",
+      "part_number": "95701-0601400",
+      "description": "โบลต์หน้าแปลน,  6X14",
+      "quantity": null,
+      "status": "candidate",
+      "notes": "Secondary-source catalog identity. Physical engineering attributes remain UNKNOWN."
+    }
+  ],
+  "parameter_series": [],
+  "unresolved_references": [
+    "catalog_quantity:one_or_more_items:unknown"
+  ],
+  "notes": "Automated extraction from honda.bike-parts.co.th. Model code: CBR150RK (opaque identifier). Evidence level C — secondary source, pending PEC cross-check. Block: E-17 GEARBOX."
+}

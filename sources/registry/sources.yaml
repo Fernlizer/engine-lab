@@ -1,6 +1,19 @@
 schema_version: "0.1"
 record_schema: "../../specs/schemas/source-record.schema.json"
 sources:
+  - id: "SRC-HONDA-BIKE-PARTS-TH-CBR150RK-2021"
+    title: "Honda CBR150RK 2021 Online Parts Catalogue"
+    type: "parts_catalog"
+    manufacturer: null
+    model: "CBR150R / CBR150RK"
+    market: "Thailand"
+    year: 2021
+    url: "https://honda.bike-parts.co.th/honda-motorcycle/150-MOTO/CBR/2021/CBR150RK/41739"
+    local_file: null
+    primary_or_secondary: "secondary"
+    evidence_level: "C"
+    notes: "Public reseller catalog used only for candidate part identity and diagram reference extraction. Website operator/manufacturer attribution was not established. Catalog quantities are not available in the observed static product rows and remain UNKNOWN. Exact category URLs and response hashes are stored in extraction datasets. Must be cross-checked against Thai Honda PEC before verification. Accessed 2026-09-14."
+
   - id: "SRC-HONDA-THA-PEC-CBR150R-2021-2026"
     title: "Honda Parts Electronic Catalogue — CBR150R model year 2021"
     type: "parts_catalog"
