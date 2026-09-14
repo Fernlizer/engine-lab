@@ -1,0 +1,134 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Fernlizer/engine-lab/specs/schemas/part-catalog-extraction.schema.json",
+  "title": "Engine Lab Part Catalog Extraction",
+  "description": "A source-faithful catalog extraction with shared provenance. Normalize individual members to part-record.schema.json before simulation use.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "dataset_id",
+    "status",
+    "source_id",
+    "observed_at",
+    "applicability",
+    "catalog_locator",
+    "price_policy",
+    "items",
+    "parameter_series",
+    "unresolved_references",
+    "notes"
+  ],
+  "properties": {
+    "schema_version": { "type": "string", "const": "0.1" },
+    "dataset_id": { "type": "string", "pattern": "^DATASET-[A-Z0-9][A-Z0-9-]*$" },
+    "status": { "enum": ["working", "reviewed"] },
+    "source_id": { "type": "string", "pattern": "^SRC-[A-Z0-9][A-Z0-9-]*$" },
+    "observed_at": { "type": "string", "format": "date" },
+    "applicability": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["manufacturer", "model", "market", "year", "serial_range", "area_code"],
+      "properties": {
+        "manufacturer": { "type": "string", "minLength": 1 },
+        "model": { "type": "string", "minLength": 1 },
+        "market": { "type": "string", "minLength": 1 },
+        "year": { "type": ["integer", "string"] },
+        "serial_range": { "type": ["string", "null"] },
+        "area_code": { "type": ["string", "null"] }
+      }
+    },
+    "catalog_locator": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["block", "page"],
+      "properties": {
+        "block": { "type": "string", "minLength": 1 },
+        "page": { "type": ["integer", "null"], "minimum": 1 }
+      }
+    },
+    "price_policy": { "type": "string", "minLength": 1 },
+    "items": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/catalogItem" }
+    },
+    "parameter_series": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/parameterSeries" }
+    },
+    "unresolved_references": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "notes": { "type": ["string", "null"] }
+  },
+  "$defs": {
+    "catalogItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["reference_number", "part_number", "description", "quantity", "status", "notes"],
+      "properties": {
+        "reference_number": { "type": "string", "minLength": 1 },
+        "part_number": { "type": "string", "minLength": 1 },
+        "description": { "type": "string", "minLength": 1 },
+        "quantity": { "type": ["integer", "null"], "minimum": 0 },
+        "status": { "enum": ["candidate", "verified", "disputed"] },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+    "parameterSeries": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "reference_number",
+        "description",
+        "quantity",
+        "parameter_id",
+        "unit",
+        "evidence_level",
+        "value_class",
+        "method",
+        "status",
+        "declared_range",
+        "members",
+        "notes"
+      ],
+      "properties": {
+        "reference_number": { "type": "string", "minLength": 1 },
+        "description": { "type": "string", "minLength": 1 },
+        "quantity": { "type": ["integer", "null"], "minimum": 0 },
+        "parameter_id": { "type": "string", "minLength": 1 },
+        "unit": { "type": "string", "minLength": 1 },
+        "evidence_level": { "const": "A" },
+        "value_class": { "const": "factory" },
+        "method": { "const": "factory_spec" },
+        "status": { "const": "verified" },
+        "declared_range": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["start", "end", "step"],
+          "properties": {
+            "start": { "type": "number" },
+            "end": { "type": "number" },
+            "step": { "type": "number", "exclusiveMinimum": 0 }
+          }
+        },
+        "members": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["part_number", "value"],
+            "properties": {
+              "part_number": { "type": "string", "minLength": 1 },
+              "value": { "type": "number" }
+            }
+          }
+        },
+        "notes": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

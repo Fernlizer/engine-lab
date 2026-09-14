@@ -35,7 +35,7 @@ Model years shown in a parts catalog identify catalog applicability, not necessa
 
 The four parts catalogs together contain hundreds of component records. Bulk reproduction has not yet been performed because the extraction needs an applicability-aware part schema and a review of catalog reuse/retention constraints.
 
-The dynamic Thai Honda PEC is usable through its model-year and exploded-view interface. Machine-readable extractions now cover the 2021 E-1 cylinder-head-cover and E-2 cylinder-head blocks. E-2 contains 24 returned part identities and 14 catalogue-reported size strings. Reference 20 remains unknown because selecting it did not yield a distinct live-list row. Live prices are visible but are excluded from engineering parameters because they are commercial, time-variant values.^13
+The dynamic Thai Honda PEC is usable through its model-year and exploded-view interface. Machine-readable extractions now cover the 2021 E-1 cylinder-head-cover, E-2 cylinder-head, and E-3 camshaft/valve blocks. E-2 contains 24 returned part identities and 14 catalogue-reported size strings. Reference 20 remains unknown because selecting it did not yield a distinct live-list row. E-3 contains 73 unique part numbers, including 57 explicitly listed valve-shim thicknesses from 1.500 mm through 2.900 mm. Live prices are visible but are excluded from engineering parameters because they are commercial, time-variant values.^13
 
 Part-number family segments must not be treated as exclusive vehicle applicability. For example, the Thai CBR150R 2021 E-1 selection returns both `90017-KGH-900` and `90017-KPP-900` for the cylinder-head-cover bolt. This establishes applicability in that catalog selection, but does not by itself establish which part supersedes the other or that all KGH- and KPP-family parts interchange.
 
@@ -203,12 +203,12 @@ For each manual, the identifying cover, publication number, revision date, appli
 
 ## Next extraction batches
 
-1. Add an applicability-aware machine-readable part-record schema.
-2. Extract engine-group part identities from catalogs in this order: 2020, 2018, 2014, 2011.
-3. Diff part numbers by functional assembly and flag changes without inferring their engineering meaning.
-4. Acquire applicable service manuals and extract nominal values, tolerances, clearances, wear limits, and complete torque tables.
-5. Add independent dyno sources with test setup, correction standard, fuel, gearing, and environmental conditions.
-6. Define a direct-measurement protocol for dimensions absent from factory publications.
+1. Extract the Thai 2021 E-4 cam-chain/tensioner block, then continue the remaining engine blocks.
+2. Normalize reviewed catalog extractions into applicability-aware part records.
+3. Compare 2020 and 2025 Thai blocks and diff part numbers without inferring dimensional or performance changes.
+4. Extract the official Indonesia catalog groups in this order: 2020, 2018, then the dealer-hosted 2014 and 2011 catalogs.
+5. Acquire applicable service manuals and extract nominal values, tolerances, clearances, wear limits, and complete torque tables.
+6. Add independent dyno sources and define direct-measurement protocols for values absent from factory publications.
 
 ## Sources
 

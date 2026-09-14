@@ -58,3 +58,14 @@ Use one entry per research session or material decision. Do not place unsupporte
 - Unknowns: E-2 reference 20 did not produce a distinct live-list row; its Thai part identity remains unknown
 - Decisions: preserve size strings without assigning dimensional axes; exclude prices; do not copy the Indonesian reference-20 part into Thai applicability
 - Follow-up: extract E-3 camshaft/valve and E-4 cam-chain/tensioner, then compare 2020 and 2025
+
+## 2026-09-14 — Thai CBR150R 2021 camshaft/valve extraction
+
+- Researcher: Codex
+- Question: Which part identities and explicitly reported engineering values are exposed by the Thai-market 2021 E-3 camshaft/valve block?
+- Sources added or reviewed: Thai Honda PEC E-3 exploded view and live part list
+- Findings: 73 unique part numbers recorded: 16 ordinary rows plus 57 valve-shim variants; shim thicknesses run from 1.500 mm through 2.900 mm in observed 0.025 mm increments
+- Conflicts: PEC returns two alternatives each for valve-stem seals, outer valve springs, and inner valve springs without declaring substitution or supersession direction
+- Unknowns: cam profiles, lift, duration, journal dimensions, valve dimensions, spring free lengths/rates, materials, tolerances, masses, and wear limits
+- Decisions: retain every shim mapping explicitly; share catalog-level provenance in an extraction envelope; exclude live prices; do not infer compatibility from K45, K56, KT7, or ML0 part-number segments
+- Follow-up: extract E-4 cam-chain/tensioner, normalize E-3 records, and seek the applicable factory service manual for physical specifications

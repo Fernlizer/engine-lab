@@ -7,6 +7,7 @@ The schema makes provenance, unknowns, derivations, and assumptions machine-visi
 Normative JSON Schemas:
 
 - `specs/schemas/engineering-parameter.schema.json`
+- `specs/schemas/part-catalog-extraction.schema.json`
 - `specs/schemas/part-record.schema.json`
 - `specs/schemas/source-record.schema.json`
 
@@ -66,6 +67,12 @@ Dataset records add stable record and parameter identifiers plus explicit engine
 - `attributes` contains zero or more engineering-parameter envelopes for dimensions, material, mass, tolerance, clearance, torque, or limits.
 
 An empty `attributes` array means that the part is identified but no physical engineering value has yet been established. Numbers embedded in a catalog description are transcribed only as reported attributes; their engineering meaning is not expanded from naming convention without a registered standard.
+
+## Part-catalog extraction
+
+`part-catalog-extraction.schema.json` is the compact, source-faithful intake format for interactive catalogs. Dataset-level source, applicability, block, and observation date apply to every contained row. Ordinary part rows live in `items`; repeated size variants live in `parameter_series`, whose members preserve every part-number-to-value mapping.
+
+This format does not weaken provenance and is not a simulation input. A reviewed extraction must be normalized to individual `part-record.schema.json` records before downstream model or validation use. Declared series ranges are completeness checks, not permission to synthesize missing members: every member must have been observed explicitly.
 
 ## Invariants
 
