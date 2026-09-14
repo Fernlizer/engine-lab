@@ -1,0 +1,212 @@
+{
+  "schema_version": "0.1",
+  "record_schema": "../../../../../specs/schemas/part-record.schema.json",
+  "dataset_id": "DATASET-HONDA-CBR150-TH-2021-E2",
+  "status": "working",
+  "scope": "Thai-market CBR150R model year 2021, E-2 cylinder head. Live PEC snapshot observed 2026-09-14. Prices are intentionally excluded.",
+  "records": [
+    {
+      "id": "PART-HONDA-12010-K56-N00-TH-2021-E2", "manufacturer": "Honda", "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": { "block": "E-2 CYLINDER HEAD", "reference_number": "1", "page": null },
+      "part_number": "12010-K56-N00", "description": "ชุดฝาสูบ", "quantity": 1,
+      "applicability": [{ "model": "CBR150R", "market": "Thailand", "year": 2021, "serial_range": null, "area_code": null, "notes": "Selected through the Thai Honda PEC model-year interface." }],
+      "supersedes": [], "superseded_by": [], "attributes": [], "status": "verified", "notes": "Physical dimensions, material, and included subcomponents remain unknown."
+    },
+    {
+      "id": "PART-HONDA-12205-KYJ-305-TH-2021-E2", "manufacturer": "Honda", "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": { "block": "E-2 CYLINDER HEAD", "reference_number": "2", "page": null },
+      "part_number": "12205-KYJ-305", "description": "ปลอกวาล์ว (O.S.)", "quantity": 4,
+      "applicability": [{ "model": "CBR150R", "market": "Thailand", "year": 2021, "serial_range": null, "area_code": null, "notes": "Selected through the Thai Honda PEC model-year interface." }],
+      "supersedes": [], "superseded_by": [], "attributes": [], "status": "verified", "notes": "O.S. is preserved from the catalogue; oversize amount remains unknown."
+    },
+    {
+      "id": "PART-HONDA-12207-KYJ-900-TH-2021-E2", "manufacturer": "Honda", "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": { "block": "E-2 CYLINDER HEAD", "reference_number": "3", "page": null },
+      "part_number": "12207-KYJ-900", "description": "โบลต์กันรั่ว, 12 มม.", "quantity": 2,
+      "applicability": [{ "model": "CBR150R", "market": "Thailand", "year": 2021, "serial_range": null, "area_code": null, "notes": "Selected through the Thai Honda PEC model-year interface." }],
+      "supersedes": [], "superseded_by": [],
+      "attributes": [{ "parameter_id": "catalog.reported_size", "parameter": { "value": "12", "unit": "mm", "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Reported in the part description; exact dimensional semantics are not stated." }, "locator": { "page": null, "section": "E-2 reference 3" } }],
+      "status": "verified", "notes": null
+    },
+    {
+      "id": "PART-HONDA-12251-K56-N01-TH-2021-E2", "manufacturer": "Honda", "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": { "block": "E-2 CYLINDER HEAD", "reference_number": "4", "page": null },
+      "part_number": "12251-K56-N01", "description": "ปะเก็นฝาสูบ (มาตรฐาน/0.25/0.50)", "quantity": 1,
+      "applicability": [{ "model": "CBR150R", "market": "Thailand", "year": 2021, "serial_range": null, "area_code": null, "notes": "Selected through the Thai Honda PEC model-year interface." }],
+      "supersedes": [], "superseded_by": [], "attributes": [], "status": "verified", "notes": "Numeric variant text is preserved verbatim; its dimensional meaning and unit remain unknown."
+    },
+    {
+      "id": "PART-HONDA-12251-K56-N02-TH-2021-E2", "manufacturer": "Honda", "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": { "block": "E-2 CYLINDER HEAD", "reference_number": "4", "page": null },
+      "part_number": "12251-K56-N02", "description": "ปะเก็นฝาสูบ (มาตรฐาน/0.25/0.50)", "quantity": 1,
+      "applicability": [{ "model": "CBR150R", "market": "Thailand", "year": 2021, "serial_range": null, "area_code": null, "notes": "Selected through the Thai Honda PEC model-year interface." }],
+      "supersedes": [], "superseded_by": [], "attributes": [], "status": "verified", "notes": "Numeric variant text is preserved verbatim; its dimensional meaning and unit remain unknown."
+    },
+    {
+      "id": "PART-HONDA-17111-K15-921-TH-2021-E2", "manufacturer": "Honda", "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": { "block": "E-2 CYLINDER HEAD", "reference_number": "5", "page": null },
+      "part_number": "17111-K15-921", "description": "ท่อไอดี", "quantity": 1,
+      "applicability": [{ "model": "CBR150R", "market": "Thailand", "year": 2021, "serial_range": null, "area_code": null, "notes": "Selected through the Thai Honda PEC model-year interface." }],
+      "supersedes": [], "superseded_by": [], "attributes": [], "status": "verified", "notes": "Differs from 17111-K15-920 in Indonesia catalogue 18K45B1AJ; engineering difference remains unknown."
+    },
+    {
+      "id": "PART-HONDA-19064-KPP-900-TH-2021-E2", "manufacturer": "Honda", "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": { "block": "E-2 CYLINDER HEAD", "reference_number": "6", "page": null },
+      "part_number": "19064-KPP-900", "description": "ข้อต่อท่อน้ำ", "quantity": 1,
+      "applicability": [{ "model": "CBR150R", "market": "Thailand", "year": 2021, "serial_range": null, "area_code": null, "notes": "Selected through the Thai Honda PEC model-year interface." }],
+      "supersedes": [], "superseded_by": [], "attributes": [], "status": "verified", "notes": null
+    },
+    {
+      "id": "PART-HONDA-31919-K25-601-TH-2021-E2", "manufacturer": "Honda", "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": { "block": "E-2 CYLINDER HEAD", "reference_number": "7", "page": null },
+      "part_number": "31919-K25-601", "description": "หัวเทียน (MR9C-9N)", "quantity": 1,
+      "applicability": [{ "model": "CBR150R", "market": "Thailand", "year": 2021, "serial_range": null, "area_code": null, "notes": "Selected through the Thai Honda PEC model-year interface." }],
+      "supersedes": [], "superseded_by": [], "attributes": [], "status": "verified", "notes": "Plug designation preserved as reported; its encoded dimensions are not expanded."
+    },
+    {
+      "id": "PART-HONDA-31919-K25-602-TH-2021-E2", "manufacturer": "Honda", "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": { "block": "E-2 CYLINDER HEAD", "reference_number": "7", "page": null },
+      "part_number": "31919-K25-602", "description": "หัวเทียน (U27EPR-N9)", "quantity": 1,
+      "applicability": [{ "model": "CBR150R", "market": "Thailand", "year": 2021, "serial_range": null, "area_code": null, "notes": "Selected through the Thai Honda PEC model-year interface." }],
+      "supersedes": [], "superseded_by": [], "attributes": [], "status": "verified", "notes": "Plug designation preserved as reported; its encoded dimensions are not expanded."
+    },
+    {
+      "id": "PART-HONDA-37870-KZR-601-TH-2021-E2", "manufacturer": "Honda", "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": { "block": "E-2 CYLINDER HEAD", "reference_number": "8", "page": null },
+      "part_number": "37870-KZR-601", "description": "ชุดตัวตรวจวัดอุณหภูมิน้ำหล่อเย็น", "quantity": 1,
+      "applicability": [{ "model": "CBR150R", "market": "Thailand", "year": 2021, "serial_range": null, "area_code": null, "notes": "Selected through the Thai Honda PEC model-year interface." }],
+      "supersedes": [], "superseded_by": [], "attributes": [], "status": "verified", "notes": "Electrical characteristics and calibration remain unknown."
+    },
+    {
+      "id": "PART-HONDA-90004-GHB-660-TH-2021-E2", "manufacturer": "Honda", "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": { "block": "E-2 CYLINDER HEAD", "reference_number": "9", "page": null },
+      "part_number": "90004-GHB-660", "description": "โบ้ลท์หน้าแปลน, 6x22", "quantity": 1,
+      "applicability": [{ "model": "CBR150R", "market": "Thailand", "year": 2021, "serial_range": null, "area_code": null, "notes": "Selected through the Thai Honda PEC model-year interface." }],
+      "supersedes": [], "superseded_by": [],
+      "attributes": [{ "parameter_id": "catalog.reported_size", "parameter": { "value": "6x22", "unit": "mm", "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Size string preserved without assuming thread pitch or measurement convention." }, "locator": { "page": null, "section": "E-2 reference 9" } }],
+      "status": "verified", "notes": null
+    },
+    {
+      "id": "PART-HONDA-90017-K56-N00-TH-2021-E2", "manufacturer": "Honda", "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": { "block": "E-2 CYLINDER HEAD", "reference_number": "10", "page": null },
+      "part_number": "90017-K56-N00", "description": "โบ้ลท์หน้าแปลน, 6x32", "quantity": 4,
+      "applicability": [{ "model": "CBR150R", "market": "Thailand", "year": 2021, "serial_range": null, "area_code": null, "notes": "Selected through the Thai Honda PEC model-year interface." }],
+      "supersedes": [], "superseded_by": [],
+      "attributes": [{ "parameter_id": "catalog.reported_size", "parameter": { "value": "6x32", "unit": "mm", "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Size string preserved without assuming thread pitch or measurement convention." }, "locator": { "page": null, "section": "E-2 reference 10" } }],
+      "status": "verified", "notes": null
+    },
+    {
+      "id": "PART-HONDA-90019-K56-N00-TH-2021-E2", "manufacturer": "Honda", "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": { "block": "E-2 CYLINDER HEAD", "reference_number": "11", "page": null },
+      "part_number": "90019-K56-N00", "description": "โบ้ลท์หน้าแปลน, 6x40", "quantity": 4,
+      "applicability": [{ "model": "CBR150R", "market": "Thailand", "year": 2021, "serial_range": null, "area_code": null, "notes": "Selected through the Thai Honda PEC model-year interface." }],
+      "supersedes": [], "superseded_by": [],
+      "attributes": [{ "parameter_id": "catalog.reported_size", "parameter": { "value": "6x40", "unit": "mm", "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Size string preserved without assuming thread pitch or measurement convention." }, "locator": { "page": null, "section": "E-2 reference 11" } }],
+      "status": "verified", "notes": null
+    },
+    {
+      "id": "PART-HONDA-90202-KGB-610-TH-2021-E2", "manufacturer": "Honda", "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": { "block": "E-2 CYLINDER HEAD", "reference_number": "12", "page": null },
+      "part_number": "90202-KGB-610", "description": "น๊อตหน้าแปลน, 8 มม.", "quantity": 4,
+      "applicability": [{ "model": "CBR150R", "market": "Thailand", "year": 2021, "serial_range": null, "area_code": null, "notes": "Selected through the Thai Honda PEC model-year interface." }],
+      "supersedes": [], "superseded_by": [],
+      "attributes": [{ "parameter_id": "catalog.reported_size", "parameter": { "value": "8", "unit": "mm", "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Reported size; thread pitch remains unknown." }, "locator": { "page": null, "section": "E-2 reference 12" } }],
+      "status": "verified", "notes": null
+    },
+    {
+      "id": "PART-HONDA-90418-KYJ-900-TH-2021-E2", "manufacturer": "Honda", "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": { "block": "E-2 CYLINDER HEAD", "reference_number": "13", "page": null },
+      "part_number": "90418-KYJ-900", "description": "แหวนรอง, 12.2x17x1.5", "quantity": 2,
+      "applicability": [{ "model": "CBR150R", "market": "Thailand", "year": 2021, "serial_range": null, "area_code": null, "notes": "Selected through the Thai Honda PEC model-year interface." }],
+      "supersedes": [], "superseded_by": [],
+      "attributes": [{ "parameter_id": "catalog.reported_size", "parameter": { "value": "12.2x17x1.5", "unit": "mm", "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Size string preserved; axis meanings are not assigned without a documented convention." }, "locator": { "page": null, "section": "E-2 reference 13" } }],
+      "status": "verified", "notes": null
+    },
+    {
+      "id": "PART-HONDA-90483-K15-900-TH-2021-E2", "manufacturer": "Honda", "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": { "block": "E-2 CYLINDER HEAD", "reference_number": "14", "page": null },
+      "part_number": "90483-K15-900", "description": "แหวนรอง, 8 มม.", "quantity": 4,
+      "applicability": [{ "model": "CBR150R", "market": "Thailand", "year": 2021, "serial_range": null, "area_code": null, "notes": "Selected through the Thai Honda PEC model-year interface." }],
+      "supersedes": [], "superseded_by": [],
+      "attributes": [{ "parameter_id": "catalog.reported_size", "parameter": { "value": "8", "unit": "mm", "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Reported size; exact dimensional semantics are not stated." }, "locator": { "page": null, "section": "E-2 reference 14" } }],
+      "status": "verified", "notes": null
+    },
+    {
+      "id": "PART-HONDA-90702-KRM-840-TH-2021-E2", "manufacturer": "Honda", "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": { "block": "E-2 CYLINDER HEAD", "reference_number": "15", "page": null },
+      "part_number": "90702-KRM-840", "description": "ปลอกสลัก, 8x14", "quantity": 4,
+      "applicability": [{ "model": "CBR150R", "market": "Thailand", "year": 2021, "serial_range": null, "area_code": null, "notes": "Selected through the Thai Honda PEC model-year interface." }],
+      "supersedes": [], "superseded_by": [],
+      "attributes": [{ "parameter_id": "catalog.reported_size", "parameter": { "value": "8x14", "unit": "mm", "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Size string preserved; diameter/length interpretation is not promoted without a documented convention." }, "locator": { "page": null, "section": "E-2 reference 15" } }],
+      "status": "verified", "notes": "PEC also returns 94301-08140 at this reference; supersession direction is unknown."
+    },
+    {
+      "id": "PART-HONDA-94301-08140-TH-2021-E2", "manufacturer": "Honda", "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": { "block": "E-2 CYLINDER HEAD", "reference_number": "15", "page": null },
+      "part_number": "94301-08140", "description": "ปลอกสลัก, 8x14", "quantity": 4,
+      "applicability": [{ "model": "CBR150R", "market": "Thailand", "year": 2021, "serial_range": null, "area_code": null, "notes": "Selected through the Thai Honda PEC model-year interface." }],
+      "supersedes": [], "superseded_by": [],
+      "attributes": [{ "parameter_id": "catalog.reported_size", "parameter": { "value": "8x14", "unit": "mm", "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Size string preserved; diameter/length interpretation is not promoted without a documented convention." }, "locator": { "page": null, "section": "E-2 reference 15" } }],
+      "status": "verified", "notes": "PEC also returns 90702-KRM-840 at this reference; supersession direction is unknown."
+    },
+    {
+      "id": "PART-HONDA-91301-K56-N00-TH-2021-E2", "manufacturer": "Honda", "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": { "block": "E-2 CYLINDER HEAD", "reference_number": "16", "page": null },
+      "part_number": "91301-K56-N00", "description": "โอริงท่อไอดี", "quantity": 1,
+      "applicability": [{ "model": "CBR150R", "market": "Thailand", "year": 2021, "serial_range": null, "area_code": null, "notes": "Selected through the Thai Honda PEC model-year interface." }],
+      "supersedes": [], "superseded_by": [], "attributes": [], "status": "verified", "notes": "Physical dimensions remain unknown."
+    },
+    {
+      "id": "PART-HONDA-91301-KV7-671-TH-2021-E2", "manufacturer": "Honda", "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": { "block": "E-2 CYLINDER HEAD", "reference_number": "17", "page": null },
+      "part_number": "91301-KV7-671", "description": "โอริง, 14.8x1.9", "quantity": 1,
+      "applicability": [{ "model": "CBR150R", "market": "Thailand", "year": 2021, "serial_range": null, "area_code": null, "notes": "Selected through the Thai Honda PEC model-year interface." }],
+      "supersedes": [], "superseded_by": [],
+      "attributes": [{ "parameter_id": "catalog.reported_size", "parameter": { "value": "14.8x1.9", "unit": "mm", "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Size string preserved; ID and cross-section meanings are not assigned without a documented convention." }, "locator": { "page": null, "section": "E-2 reference 17" } }],
+      "status": "verified", "notes": null
+    },
+    {
+      "id": "PART-HONDA-91307-PLC-004-TH-2021-E2", "manufacturer": "Honda", "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": { "block": "E-2 CYLINDER HEAD", "reference_number": "18", "page": null },
+      "part_number": "91307-PLC-004", "description": "โอริง, 9.5x1.9", "quantity": 1,
+      "applicability": [{ "model": "CBR150R", "market": "Thailand", "year": 2021, "serial_range": null, "area_code": null, "notes": "Selected through the Thai Honda PEC model-year interface." }],
+      "supersedes": [], "superseded_by": [],
+      "attributes": [{ "parameter_id": "catalog.reported_size", "parameter": { "value": "9.5x1.9", "unit": "mm", "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Size string preserved; ID and cross-section meanings are not assigned without a documented convention." }, "locator": { "page": null, "section": "E-2 reference 18" } }],
+      "status": "verified", "notes": null
+    },
+    {
+      "id": "PART-HONDA-92900-08025-0E-TH-2021-E2", "manufacturer": "Honda", "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": { "block": "E-2 CYLINDER HEAD", "reference_number": "19", "page": null },
+      "part_number": "92900-08025-0E", "description": "โบ้ลท์สตัด, 8x25", "quantity": 2,
+      "applicability": [{ "model": "CBR150R", "market": "Thailand", "year": 2021, "serial_range": null, "area_code": null, "notes": "Selected through the Thai Honda PEC model-year interface." }],
+      "supersedes": [], "superseded_by": [],
+      "attributes": [{ "parameter_id": "catalog.reported_size", "parameter": { "value": "8x25", "unit": "mm", "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Size string preserved without assuming thread pitch or measurement convention." }, "locator": { "page": null, "section": "E-2 reference 19" } }],
+      "status": "verified", "notes": null
+    },
+    {
+      "id": "PART-HONDA-95701-06022-00-TH-2021-E2", "manufacturer": "Honda", "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": { "block": "E-2 CYLINDER HEAD", "reference_number": "21", "page": null },
+      "part_number": "95701-06022-00", "description": "โบลต์หน้าแปลน, 6x22", "quantity": 2,
+      "applicability": [{ "model": "CBR150R", "market": "Thailand", "year": 2021, "serial_range": null, "area_code": null, "notes": "Selected through the Thai Honda PEC model-year interface." }],
+      "supersedes": [], "superseded_by": [],
+      "attributes": [{ "parameter_id": "catalog.reported_size", "parameter": { "value": "6x22", "unit": "mm", "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Size string preserved without assuming thread pitch or measurement convention." }, "locator": { "page": null, "section": "E-2 reference 21" } }],
+      "status": "verified", "notes": "Reference number follows the exploded-view label and matching Honda catalogue; PEC selection plumbing did not expose a stable reference field."
+    },
+    {
+      "id": "PART-HONDA-95701-06115-00-TH-2021-E2", "manufacturer": "Honda", "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": { "block": "E-2 CYLINDER HEAD", "reference_number": "22", "page": null },
+      "part_number": "95701-06115-00", "description": "โบ้ลท์หน้าแปลน, 6x115", "quantity": 2,
+      "applicability": [{ "model": "CBR150R", "market": "Thailand", "year": 2021, "serial_range": null, "area_code": null, "notes": "Selected through the Thai Honda PEC model-year interface." }],
+      "supersedes": [], "superseded_by": [],
+      "attributes": [{ "parameter_id": "catalog.reported_size", "parameter": { "value": "6x115", "unit": "mm", "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Size string preserved without assuming thread pitch or measurement convention." }, "locator": { "page": null, "section": "E-2 reference 22" } }],
+      "status": "verified", "notes": null
+    }
+  ],
+  "unresolved_references": [
+    {
+      "reference_number": "20",
+      "status": "unknown",
+      "notes": "The exploded view includes this reference, but the live PEC interaction did not yield a distinct list row. Do not infer absence or reuse another market's part number."
+    }
+  ]
+}

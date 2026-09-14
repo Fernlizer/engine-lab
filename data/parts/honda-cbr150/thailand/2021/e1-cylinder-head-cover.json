@@ -1,0 +1,93 @@
+{
+  "schema_version": "0.1",
+  "dataset_id": "DATASET-HONDA-CBR150-TH-2021-E1",
+  "status": "working",
+  "scope": "Thai-market CBR150R model year 2021, E-1 cylinder head cover. Live PEC snapshot observed 2026-09-14.",
+  "records": [
+    {
+      "id": "PART-HONDA-12311-K56-N00-TH-2021",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": { "block": "E-1 CYLINDER HEAD COVER", "reference_number": "1", "page": null },
+      "part_number": "12311-K56-N00",
+      "description": "ฝาครอบฝาสูบ",
+      "quantity": 1,
+      "applicability": [
+        { "model": "CBR150R", "market": "Thailand", "year": 2021, "serial_range": null, "area_code": null, "notes": "Selected through the Thai Honda PEC model-year interface." }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [],
+      "status": "verified",
+      "notes": "Part identity and quantity transcribed from the live PEC list. Physical dimensions and material remain unknown."
+    },
+    {
+      "id": "PART-HONDA-12391-K56-N00-TH-2021",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": { "block": "E-1 CYLINDER HEAD COVER", "reference_number": "2", "page": null },
+      "part_number": "12391-K56-N00",
+      "description": "ปะเก็นฝาครอบฝาสูบ",
+      "quantity": 1,
+      "applicability": [
+        { "model": "CBR150R", "market": "Thailand", "year": 2021, "serial_range": null, "area_code": null, "notes": "Selected through the Thai Honda PEC model-year interface." }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [],
+      "status": "verified",
+      "notes": "Part identity and quantity transcribed from the live PEC list. Physical dimensions and material remain unknown."
+    },
+    {
+      "id": "PART-HONDA-90017-KGH-900-TH-2021",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": { "block": "E-1 CYLINDER HEAD COVER", "reference_number": "3", "page": null },
+      "part_number": "90017-KGH-900",
+      "description": "โบ้ลท์ยึดฝาครอบฝาสูบ",
+      "quantity": 2,
+      "applicability": [
+        { "model": "CBR150R", "market": "Thailand", "year": 2021, "serial_range": null, "area_code": null, "notes": "Selected through the Thai Honda PEC model-year interface." }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [],
+      "status": "verified",
+      "notes": "The PEC also returned 90017-KPP-900 with the same Thai description and quantity. Both are verified for this catalog selection, but their replacement or substitution direction is not stated."
+    },
+    {
+      "id": "PART-HONDA-90543-MV9-670-TH-2021",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": { "block": "E-1 CYLINDER HEAD COVER", "reference_number": "4", "page": null },
+      "part_number": "90543-MV9-670",
+      "description": "ยางรอง",
+      "quantity": 2,
+      "applicability": [
+        { "model": "CBR150R", "market": "Thailand", "year": 2021, "serial_range": null, "area_code": null, "notes": "Selected through the Thai Honda PEC model-year interface." }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [],
+      "status": "verified",
+      "notes": "Part identity and quantity transcribed from the live PEC list. Physical dimensions and material remain unknown."
+    },
+    {
+      "id": "PART-HONDA-90017-KPP-900-TH-2021",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": { "block": "E-1 CYLINDER HEAD COVER", "reference_number": "3", "page": null },
+      "part_number": "90017-KPP-900",
+      "description": "โบ้ลท์ยึดฝาครอบฝาสูบ",
+      "quantity": 2,
+      "applicability": [
+        { "model": "CBR150R", "market": "Thailand", "year": 2021, "serial_range": null, "area_code": null, "notes": "Returned by the live E-1 PEC interaction for the cylinder-head-cover bolt reference." }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [],
+      "status": "verified",
+      "notes": "Thai Honda PEC establishes applicability to this CBR150R selection despite the KPP segment in the part number. Its supersession or substitution direction relative to 90017-KGH-900 remains UNKNOWN."
+    }
+  ]
+}

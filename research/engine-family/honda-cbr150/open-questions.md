@@ -1,6 +1,6 @@
 # Honda CBR150 Phase 1 Open Questions
 
-All questions are unresolved until evidence is registered and reviewed.
+Questions below remain unresolved after the first official-source pass. Resolved observations and citations are in `phase-1-report.md`.
 
 ## Family boundaries
 
@@ -38,3 +38,11 @@ All questions are unresolved until evidence is registered and reviewed.
 - What canonical units and unit-conversion library should later be adopted?
 - How will repeated measurements, uncertainty, and instrument calibration be represented?
 - What licensing constraints apply to locally retaining manuals, catalogs, dyno plots, and web captures?
+
+## Documents requested from the owner
+
+The highest-value contribution is an applicable factory service/workshop manual for any of these catalog groups: CBR150RC, CBR150RF, CBR150RG/RJ/RK/RAK, or CBR150RM/RAM. Please preserve the cover, publication number, revision/date, applicability/model-code page, and market together with the specification pages. A detached specification page cannot safely establish applicability.
+
+## User-supplied research leads awaiting sources
+
+The following values were supplied as domain-knowledge leads on 2026-09-14 and are not yet dataset claims: KGH/Sonic 125 piston diameter 58.0 mm, piston-pin diameter 13 mm, and 5-speed gearbox; KPP/CBR150 piston diameter 63.5 mm, piston-pin diameter 15 mm, and 6-speed gearbox. Each value requires an applicable manual, catalog, measurement record, or other registrable source before it can enter the engineering dataset.

@@ -1,0 +1,337 @@
+{
+  "schema_version": "0.1",
+  "dataset_id": "DATASET-HONDA-CBR150-PHASE1-CORE",
+  "status": "working",
+  "scope": "First-pass engine, drivetrain, service, and cross-market observations from registered sources. This is not a complete CBR150 dataset.",
+  "observations": [
+    {
+      "id": "OBS-HPI21-DISPLACEMENT",
+      "subject": { "model": "CBR150R / CBR150RA", "market": "Philippines", "country_code": "IV PH" },
+      "parameter_id": "engine.displacement",
+      "parameter": { "value": 149, "unit": "cm3", "source_id": "SRC-HONDA-HPI-OM-32K45B100-2021", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Reported rounded value." },
+      "locator": { "page": 91, "section": "Specifications - Main Components" }
+    },
+    {
+      "id": "OBS-HPI21-BORE",
+      "subject": { "model": "CBR150R / CBR150RA", "market": "Philippines", "country_code": "IV PH" },
+      "parameter_id": "engine.bore",
+      "parameter": { "value": 57.300, "unit": "mm", "source_id": "SRC-HONDA-HPI-OM-32K45B100-2021", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Preserves reported precision." },
+      "locator": { "page": 91, "section": "Specifications - Main Components" }
+    },
+    {
+      "id": "OBS-HPI21-STROKE",
+      "subject": { "model": "CBR150R / CBR150RA", "market": "Philippines", "country_code": "IV PH" },
+      "parameter_id": "engine.stroke",
+      "parameter": { "value": 57.843, "unit": "mm", "source_id": "SRC-HONDA-HPI-OM-32K45B100-2021", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Preserves reported precision." },
+      "locator": { "page": 91, "section": "Specifications - Main Components" }
+    },
+    {
+      "id": "OBS-HPI21-COMPRESSION-RATIO",
+      "subject": { "model": "CBR150R / CBR150RA", "market": "Philippines", "country_code": "IV PH" },
+      "parameter_id": "engine.compression_ratio",
+      "parameter": { "value": 11.3, "unit": "1", "source_id": "SRC-HONDA-HPI-OM-32K45B100-2021", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Reported as 11.3:1." },
+      "locator": { "page": 91, "section": "Specifications - Main Components" }
+    },
+    {
+      "id": "OBS-HPI21-MIN-FUEL-RON",
+      "subject": { "model": "CBR150R / CBR150RA", "market": "Philippines", "country_code": "IV PH" },
+      "parameter_id": "fuel.minimum_recommended_ron",
+      "parameter": { "value": 88, "unit": "RON", "source_id": "SRC-HONDA-HPI-OM-32K45B100-2021", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Unleaded petrol; 88 RON or higher." },
+      "locator": { "page": 91, "section": "Specifications - Main Components" }
+    },
+    {
+      "id": "OBS-HPI21-MAX-ETHANOL",
+      "subject": { "model": "CBR150R / CBR150RA", "market": "Philippines", "country_code": "IV PH" },
+      "parameter_id": "fuel.maximum_ethanol_volume_fraction",
+      "parameter": { "value": 10, "unit": "%", "source_id": "SRC-HONDA-HPI-OM-32K45B100-2021", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Maximum ethanol by volume." },
+      "locator": { "page": 91, "section": "Specifications - Main Components" }
+    },
+    {
+      "id": "OBS-HPI21-TANK-CAPACITY",
+      "subject": { "model": "CBR150R / CBR150RA", "market": "Philippines", "country_code": "IV PH" },
+      "parameter_id": "fuel.tank_capacity",
+      "parameter": { "value": 12, "unit": "L", "source_id": "SRC-HONDA-HPI-OM-32K45B100-2021", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": null },
+      "locator": { "page": 91, "section": "Specifications - Main Components" }
+    },
+    {
+      "id": "OBS-HPI21-BATTERY-VOLTAGE",
+      "subject": { "model": "CBR150R / CBR150RA", "market": "Philippines", "country_code": "IV PH" },
+      "parameter_id": "electrical.battery_nominal_voltage",
+      "parameter": { "value": 12, "unit": "V", "source_id": "SRC-HONDA-HPI-OM-32K45B100-2021", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Battery type GTZ6V or YTZ6V." },
+      "locator": { "page": 91, "section": "Specifications - Main Components" }
+    },
+    {
+      "id": "OBS-HPI21-BATTERY-CAPACITY",
+      "subject": { "model": "CBR150R / CBR150RA", "market": "Philippines", "country_code": "IV PH" },
+      "parameter_id": "electrical.battery_capacity_10hr",
+      "parameter": { "value": 5.0, "unit": "Ah", "source_id": "SRC-HONDA-HPI-OM-32K45B100-2021", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Capacity stated at 10-hour rate." },
+      "locator": { "page": 91, "section": "Specifications - Main Components" }
+    },
+    {
+      "id": "OBS-HPI21-GEAR-1",
+      "subject": { "model": "CBR150R / CBR150RA", "market": "Philippines", "country_code": "IV PH" },
+      "parameter_id": "transmission.gear_ratio.1",
+      "parameter": { "value": 3.083, "unit": "1", "source_id": "SRC-HONDA-HPI-OM-32K45B100-2021", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": null },
+      "locator": { "page": 91, "section": "Specifications - Main Components" }
+    },
+    {
+      "id": "OBS-HPI21-GEAR-2",
+      "subject": { "model": "CBR150R / CBR150RA", "market": "Philippines", "country_code": "IV PH" },
+      "parameter_id": "transmission.gear_ratio.2",
+      "parameter": { "value": 1.941, "unit": "1", "source_id": "SRC-HONDA-HPI-OM-32K45B100-2021", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": null },
+      "locator": { "page": 91, "section": "Specifications - Main Components" }
+    },
+    {
+      "id": "OBS-HPI21-GEAR-3",
+      "subject": { "model": "CBR150R / CBR150RA", "market": "Philippines", "country_code": "IV PH" },
+      "parameter_id": "transmission.gear_ratio.3",
+      "parameter": { "value": 1.500, "unit": "1", "source_id": "SRC-HONDA-HPI-OM-32K45B100-2021", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Preserves reported precision." },
+      "locator": { "page": 91, "section": "Specifications - Main Components" }
+    },
+    {
+      "id": "OBS-HPI21-GEAR-4",
+      "subject": { "model": "CBR150R / CBR150RA", "market": "Philippines", "country_code": "IV PH" },
+      "parameter_id": "transmission.gear_ratio.4",
+      "parameter": { "value": 1.227, "unit": "1", "source_id": "SRC-HONDA-HPI-OM-32K45B100-2021", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": null },
+      "locator": { "page": 91, "section": "Specifications - Main Components" }
+    },
+    {
+      "id": "OBS-HPI21-GEAR-5",
+      "subject": { "model": "CBR150R / CBR150RA", "market": "Philippines", "country_code": "IV PH" },
+      "parameter_id": "transmission.gear_ratio.5",
+      "parameter": { "value": 1.041, "unit": "1", "source_id": "SRC-HONDA-HPI-OM-32K45B100-2021", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": null },
+      "locator": { "page": 91, "section": "Specifications - Main Components" }
+    },
+    {
+      "id": "OBS-HPI21-GEAR-6",
+      "subject": { "model": "CBR150R / CBR150RA", "market": "Philippines", "country_code": "IV PH" },
+      "parameter_id": "transmission.gear_ratio.6",
+      "parameter": { "value": 0.923, "unit": "1", "source_id": "SRC-HONDA-HPI-OM-32K45B100-2021", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": null },
+      "locator": { "page": 91, "section": "Specifications - Main Components" }
+    },
+    {
+      "id": "OBS-HPI21-PRIMARY-REDUCTION",
+      "subject": { "model": "CBR150R / CBR150RA", "market": "Philippines", "country_code": "IV PH" },
+      "parameter_id": "transmission.primary_reduction_ratio",
+      "parameter": { "value": 3.260, "unit": "1", "source_id": "SRC-HONDA-HPI-OM-32K45B100-2021", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": null },
+      "locator": { "page": 91, "section": "Specifications - Main Components" }
+    },
+    {
+      "id": "OBS-HPI21-FINAL-REDUCTION",
+      "subject": { "model": "CBR150R / CBR150RA", "market": "Philippines", "country_code": "IV PH" },
+      "parameter_id": "transmission.final_reduction_ratio",
+      "parameter": { "value": 3.000, "unit": "1", "source_id": "SRC-HONDA-HPI-OM-32K45B100-2021", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Preserves reported precision." },
+      "locator": { "page": 91, "section": "Specifications - Main Components" }
+    },
+    {
+      "id": "OBS-HPI21-COOLANT-CAPACITY",
+      "subject": { "model": "CBR150R / CBR150RA", "market": "Philippines", "country_code": "IV PH" },
+      "parameter_id": "cooling.system_capacity",
+      "parameter": { "value": 0.58, "unit": "L", "source_id": "SRC-HONDA-HPI-OM-32K45B100-2021", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": null },
+      "locator": { "page": 92, "section": "Specifications - Service Data" }
+    },
+    {
+      "id": "OBS-HPI21-OIL-DRAIN",
+      "subject": { "model": "CBR150R / CBR150RA", "market": "Philippines", "country_code": "IV PH" },
+      "parameter_id": "lubrication.engine_oil_capacity_after_draining",
+      "parameter": { "value": 1.1, "unit": "L", "source_id": "SRC-HONDA-HPI-OM-32K45B100-2021", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": null },
+      "locator": { "page": 92, "section": "Specifications - Service Data" }
+    },
+    {
+      "id": "OBS-HPI21-OIL-DISASSEMBLY",
+      "subject": { "model": "CBR150R / CBR150RA", "market": "Philippines", "country_code": "IV PH" },
+      "parameter_id": "lubrication.engine_oil_capacity_after_disassembly",
+      "parameter": { "value": 1.3, "unit": "L", "source_id": "SRC-HONDA-HPI-OM-32K45B100-2021", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": null },
+      "locator": { "page": 92, "section": "Specifications - Service Data" }
+    },
+    {
+      "id": "OBS-HPI21-SPARK-GAP-MIN",
+      "subject": { "model": "CBR150R / CBR150RA", "market": "Philippines", "country_code": "IV PH" },
+      "parameter_id": "ignition.spark_plug_gap.minimum",
+      "parameter": { "value": 0.8, "unit": "mm", "source_id": "SRC-HONDA-HPI-OM-32K45B100-2021", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Range lower bound." },
+      "locator": { "page": 92, "section": "Specifications - Service Data" }
+    },
+    {
+      "id": "OBS-HPI21-SPARK-GAP-MAX",
+      "subject": { "model": "CBR150R / CBR150RA", "market": "Philippines", "country_code": "IV PH" },
+      "parameter_id": "ignition.spark_plug_gap.maximum",
+      "parameter": { "value": 0.9, "unit": "mm", "source_id": "SRC-HONDA-HPI-OM-32K45B100-2021", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Range upper bound." },
+      "locator": { "page": 92, "section": "Specifications - Service Data" }
+    },
+    {
+      "id": "OBS-HPI21-IDLE-TARGET",
+      "subject": { "model": "CBR150R / CBR150RA", "market": "Philippines", "country_code": "IV PH" },
+      "parameter_id": "engine.idle_speed.target",
+      "parameter": { "value": 1600, "unit": "rpm", "source_id": "SRC-HONDA-HPI-OM-32K45B100-2021", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Reported with ±100 rpm tolerance." },
+      "locator": { "page": 92, "section": "Specifications - Service Data" }
+    },
+    {
+      "id": "OBS-HPI21-IDLE-TOLERANCE",
+      "subject": { "model": "CBR150R / CBR150RA", "market": "Philippines", "country_code": "IV PH" },
+      "parameter_id": "engine.idle_speed.tolerance",
+      "parameter": { "value": 100, "unit": "rpm", "source_id": "SRC-HONDA-HPI-OM-32K45B100-2021", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Symmetric plus/minus tolerance." },
+      "locator": { "page": 92, "section": "Specifications - Service Data" }
+    },
+    {
+      "id": "OBS-HPI21-CHAIN-SLACK-MIN",
+      "subject": { "model": "CBR150R / CBR150RA", "market": "Philippines", "country_code": "IV PH" },
+      "parameter_id": "final_drive.chain_slack.minimum",
+      "parameter": { "value": 25, "unit": "mm", "source_id": "SRC-HONDA-HPI-OM-32K45B100-2021", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Range lower bound." },
+      "locator": { "page": 92, "section": "Specifications - Service Data" }
+    },
+    {
+      "id": "OBS-HPI21-CHAIN-SLACK-MAX",
+      "subject": { "model": "CBR150R / CBR150RA", "market": "Philippines", "country_code": "IV PH" },
+      "parameter_id": "final_drive.chain_slack.maximum",
+      "parameter": { "value": 35, "unit": "mm", "source_id": "SRC-HONDA-HPI-OM-32K45B100-2021", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Range upper bound." },
+      "locator": { "page": 92, "section": "Specifications - Service Data" }
+    },
+    {
+      "id": "OBS-HPI21-CHAIN-LINKS",
+      "subject": { "model": "CBR150R / CBR150RA", "market": "Philippines", "country_code": "IV PH" },
+      "parameter_id": "final_drive.chain_link_count",
+      "parameter": { "value": 128, "unit": "1", "source_id": "SRC-HONDA-HPI-OM-32K45B100-2021", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Standard chain FSCM428H or RK428HSE1." },
+      "locator": { "page": 92, "section": "Specifications - Service Data" }
+    },
+    {
+      "id": "OBS-HPI21-DRIVE-SPROCKET",
+      "subject": { "model": "CBR150R / CBR150RA", "market": "Philippines", "country_code": "IV PH" },
+      "parameter_id": "final_drive.drive_sprocket_teeth",
+      "parameter": { "value": 15, "unit": "1", "source_id": "SRC-HONDA-HPI-OM-32K45B100-2021", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": null },
+      "locator": { "page": 92, "section": "Specifications - Service Data" }
+    },
+    {
+      "id": "OBS-HPI21-DRIVEN-SPROCKET",
+      "subject": { "model": "CBR150R / CBR150RA", "market": "Philippines", "country_code": "IV PH" },
+      "parameter_id": "final_drive.driven_sprocket_teeth",
+      "parameter": { "value": 45, "unit": "1", "source_id": "SRC-HONDA-HPI-OM-32K45B100-2021", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": null },
+      "locator": { "page": 92, "section": "Specifications - Service Data" }
+    },
+    {
+      "id": "OBS-HPI21-SEAT-BOLT-TORQUE",
+      "subject": { "model": "CBR150R / CBR150RA", "market": "Philippines", "country_code": "IV PH" },
+      "parameter_id": "torque.seat_mounting_bolt",
+      "parameter": { "value": 10, "unit": "N.m", "source_id": "SRC-HONDA-HPI-OM-32K45B100-2021", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": null },
+      "locator": { "page": 93, "section": "Specifications - Torque Specifications" }
+    },
+    {
+      "id": "OBS-HPI16-OIL-DRAIN-BOLT-TORQUE",
+      "subject": { "model": "CBR150R", "market": "Philippines", "country_code": "PH / III PH / V PH" },
+      "parameter_id": "torque.engine_oil_drain_bolt",
+      "parameter": { "value": 24, "unit": "N.m", "source_id": "SRC-HONDA-HPI-OM-32K45B000-2016", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": null },
+      "locator": { "page": 108, "section": "Specifications - Torque Specifications" }
+    },
+    {
+      "id": "OBS-HPI16-FRONT-AXLE-NUT-TORQUE",
+      "subject": { "model": "CBR150R", "market": "Philippines", "country_code": "PH / III PH / V PH" },
+      "parameter_id": "torque.front_axle_nut",
+      "parameter": { "value": 59, "unit": "N.m", "source_id": "SRC-HONDA-HPI-OM-32K45B000-2016", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": null },
+      "locator": { "page": 108, "section": "Specifications - Torque Specifications" }
+    },
+    {
+      "id": "OBS-HPI16-REAR-AXLE-NUT-TORQUE",
+      "subject": { "model": "CBR150R", "market": "Philippines", "country_code": "PH / III PH / V PH" },
+      "parameter_id": "torque.rear_axle_nut",
+      "parameter": { "value": 68, "unit": "N.m", "source_id": "SRC-HONDA-HPI-OM-32K45B000-2016", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": null },
+      "locator": { "page": 108, "section": "Specifications - Torque Specifications" }
+    },
+    {
+      "id": "OBS-HPI16-COWL-BOLT-TORQUE",
+      "subject": { "model": "CBR150R", "market": "Philippines", "country_code": "PH / III PH / V PH" },
+      "parameter_id": "torque.right_middle_cowl_bolt_b",
+      "parameter": { "value": 4.2, "unit": "N.m", "source_id": "SRC-HONDA-HPI-OM-32K45B000-2016", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": null },
+      "locator": { "page": 108, "section": "Specifications - Torque Specifications" }
+    },
+    {
+      "id": "OBS-HPI16-SEAT-LOCK-COVER-TORQUE",
+      "subject": { "model": "CBR150R", "market": "Philippines", "country_code": "PH / III PH / V PH" },
+      "parameter_id": "torque.seat_lock_cover_bolt",
+      "parameter": { "value": 4.2, "unit": "N.m", "source_id": "SRC-HONDA-HPI-OM-32K45B000-2016", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": null },
+      "locator": { "page": 108, "section": "Specifications - Torque Specifications" }
+    },
+    {
+      "id": "OBS-HVN21-WHEELBASE",
+      "subject": { "model": "CBR150RA", "market": "Vietnam", "country_code": null },
+      "parameter_id": "chassis.wheelbase",
+      "parameter": { "value": 1312, "unit": "mm", "source_id": "SRC-HONDA-HVN-OM-00X4F-K45-F000-2021", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Market-specific owner manual value." },
+      "locator": { "page": 92, "section": "Specifications - Main Components" }
+    },
+    {
+      "id": "OBS-HVN21-CURB-WEIGHT",
+      "subject": { "model": "CBR150RA", "market": "Vietnam", "country_code": null },
+      "parameter_id": "chassis.curb_weight",
+      "parameter": { "value": 139, "unit": "kg", "source_id": "SRC-HONDA-HVN-OM-00X4F-K45-F000-2021", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Market-specific owner manual value." },
+      "locator": { "page": 92, "section": "Specifications - Main Components" }
+    },
+    {
+      "id": "OBS-HVN21-MAX-LOAD",
+      "subject": { "model": "CBR150RA", "market": "Vietnam", "country_code": null },
+      "parameter_id": "chassis.maximum_weight_capacity",
+      "parameter": { "value": 161, "unit": "kg", "source_id": "SRC-HONDA-HVN-OM-00X4F-K45-F000-2021", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Includes rider, passenger, luggage, and accessories." },
+      "locator": { "page": 92, "section": "Specifications - Main Components" }
+    },
+    {
+      "id": "OBS-BSH24-MIN-FUEL-RON",
+      "subject": { "model": "CBR150RA", "market": "Thailand / Malaysia", "country_code": "TH / IV TH / MA / IV MA / VIII MA" },
+      "parameter_id": "fuel.minimum_recommended_ron",
+      "parameter": { "value": 91, "unit": "RON", "source_id": "SRC-HONDA-BSH-OM-32K45D200-2024", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Applies to listed Thailand and Malaysia destination codes." },
+      "locator": { "page": 90, "section": "Specifications - Main Components" }
+    },
+    {
+      "id": "OBS-BSH24-TH-MAX-ETHANOL",
+      "subject": { "model": "CBR150RA", "market": "Thailand", "country_code": "TH / IV TH" },
+      "parameter_id": "fuel.maximum_ethanol_volume_fraction",
+      "parameter": { "value": 20, "unit": "%", "source_id": "SRC-HONDA-BSH-OM-32K45D200-2024", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Thailand destination only." },
+      "locator": { "page": 90, "section": "Specifications - Main Components" }
+    },
+    {
+      "id": "OBS-BSH24-MY-MAX-ETHANOL",
+      "subject": { "model": "CBR150RA", "market": "Malaysia", "country_code": "MA / IV MA / VIII MA" },
+      "parameter_id": "fuel.maximum_ethanol_volume_fraction",
+      "parameter": { "value": 10, "unit": "%", "source_id": "SRC-HONDA-BSH-OM-32K45D200-2024", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "verified", "notes": "Malaysia destination only." },
+      "locator": { "page": 90, "section": "Specifications - Main Components" }
+    },
+    {
+      "id": "OBS-BSH26-CLAIMED-POWER",
+      "subject": { "model": "CBR150R", "market": "Malaysia", "country_code": null },
+      "parameter_id": "performance.claimed_maximum_power",
+      "parameter": { "value": 12.0, "unit": "kW", "source_id": "SRC-HONDA-BSH-WEB-CBR150R-2026", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "candidate", "notes": "Current product page; explicit model year and measurement standard are not stated. Reported at 9,000 rpm." },
+      "locator": { "page": null, "section": "Specifications - Engine" }
+    },
+    {
+      "id": "OBS-BSH26-CLAIMED-POWER-RPM",
+      "subject": { "model": "CBR150R", "market": "Malaysia", "country_code": null },
+      "parameter_id": "performance.claimed_maximum_power_speed",
+      "parameter": { "value": 9000, "unit": "rpm", "source_id": "SRC-HONDA-BSH-WEB-CBR150R-2026", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "candidate", "notes": "Linked to claimed maximum power; explicit model year not stated." },
+      "locator": { "page": null, "section": "Specifications - Engine" }
+    },
+    {
+      "id": "OBS-BSH26-CLAIMED-TORQUE",
+      "subject": { "model": "CBR150R", "market": "Malaysia", "country_code": null },
+      "parameter_id": "performance.claimed_maximum_torque",
+      "parameter": { "value": 13.7, "unit": "N.m", "source_id": "SRC-HONDA-BSH-WEB-CBR150R-2026", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "candidate", "notes": "Current product page; explicit model year and measurement standard are not stated. Reported at 7,000 rpm." },
+      "locator": { "page": null, "section": "Specifications - Engine" }
+    },
+    {
+      "id": "OBS-BSH26-CLAIMED-TORQUE-RPM",
+      "subject": { "model": "CBR150R", "market": "Malaysia", "country_code": null },
+      "parameter_id": "performance.claimed_maximum_torque_speed",
+      "parameter": { "value": 7000, "unit": "rpm", "source_id": "SRC-HONDA-BSH-WEB-CBR150R-2026", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "candidate", "notes": "Linked to claimed maximum torque; explicit model year not stated." },
+      "locator": { "page": null, "section": "Specifications - Engine" }
+    },
+    {
+      "id": "OBS-HVN26-CLAIMED-POWER",
+      "subject": { "model": "CBR150R", "market": "Vietnam", "country_code": null },
+      "parameter_id": "performance.claimed_maximum_power",
+      "parameter": { "value": 12.6, "unit": "kW", "source_id": "SRC-HONDA-HVN-WEB-CBR150R-2026", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "candidate", "notes": "Current product comparison page; explicit model year and measurement standard are not stated. Reported at 9,000 rpm." },
+      "locator": { "page": null, "section": "Specifications" }
+    },
+    {
+      "id": "OBS-HVN26-CLAIMED-TORQUE",
+      "subject": { "model": "CBR150R", "market": "Vietnam", "country_code": null },
+      "parameter_id": "performance.claimed_maximum_torque",
+      "parameter": { "value": 14.4, "unit": "N.m", "source_id": "SRC-HONDA-HVN-WEB-CBR150R-2026", "evidence_level": "A", "value_class": "factory", "method": "factory_spec", "status": "candidate", "notes": "Current product comparison page; explicit model year and measurement standard are not stated. Reported at 7,000 rpm." },
+      "locator": { "page": null, "section": "Specifications" }
+    }
+  ]
+}

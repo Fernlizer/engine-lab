@@ -7,6 +7,7 @@ The schema makes provenance, unknowns, derivations, and assumptions machine-visi
 Normative JSON Schemas:
 
 - `specs/schemas/engineering-parameter.schema.json`
+- `specs/schemas/part-record.schema.json`
 - `specs/schemas/source-record.schema.json`
 
 ## Engineering parameter envelope
@@ -54,7 +55,17 @@ The illustrative numeric value above demonstrates serialization only and must no
 - `status`: `candidate`, `verified`, `disputed`, or `unknown`.
 - `notes`: concise context, locator, applicability, uncertainty, or conflict information.
 
-Dataset records should add stable record and parameter identifiers plus explicit engine applicability around this envelope. Those container schemas will be designed after Phase 1 reveals the actual variant and conflict requirements.
+Dataset records add stable record and parameter identifiers plus explicit engine applicability around this envelope.
+
+## Part record
+
+`part-record.schema.json` separates catalog identity from physical engineering data:
+
+- catalog identity records the catalog source, block, reference number, part number, description, reported quantity, and exact applicability;
+- supersession fields preserve replacement relationships without implying dimensional equivalence; and
+- `attributes` contains zero or more engineering-parameter envelopes for dimensions, material, mass, tolerance, clearance, torque, or limits.
+
+An empty `attributes` array means that the part is identified but no physical engineering value has yet been established. Numbers embedded in a catalog description are transcribed only as reported attributes; their engineering meaning is not expanded from naming convention without a registered standard.
 
 ## Invariants
 

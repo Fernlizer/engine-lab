@@ -1,3 +1,171 @@
 schema_version: "0.1"
 record_schema: "../../specs/schemas/source-record.schema.json"
-sources: []
+sources:
+  - id: "SRC-HONDA-THA-PEC-CBR150R-2021-2026"
+    title: "Honda Parts Electronic Catalogue — CBR150R model year 2021"
+    type: "parts_catalog"
+    manufacturer: "Thai Honda Co., Ltd."
+    model: "CBR150R"
+    market: "Thailand"
+    year: 2021
+    url: "https://pec.thaihonda.co.th/Applications/Common/Programs/StartApp.aspx"
+    local_file: null
+    primary_or_secondary: "primary"
+    evidence_level: "A"
+    notes: "Dynamic official Thai Honda parts catalogue. CBR150R model-year choices observed: 2004, 2011, 2016, 2017, 2019, 2020, 2021, and 2025. The 2021 E-1 cylinder-head-cover diagram and its live part list were inspected on 2026-09-14. Current prices are commercially volatile and are not treated as engineering parameters."
+
+  - id: "SRC-HONDA-HPI-OM-32K45B000-2016"
+    title: "CBR150R Owner's Manual 32K45B000_eng"
+    type: "manual"
+    manufacturer: "Honda Motor Co., Ltd."
+    model: "CBR150R"
+    market: "Philippines"
+    year: 2016
+    url: "https://2rom-prd-data.hondamotopub.com/om/HPI/CBR150R/2018/CBR150R_32K45B000_1.pdf"
+    local_file: null
+    primary_or_secondary: "primary"
+    evidence_level: "A"
+    notes: "Official Honda MotoPub owner manual. Copyright 2016; PDF metadata modified 2018-05-21. Country codes PH, III PH, V PH. Accessed 2026-09-14. SHA-256 da20e6561a538550e88e9824522de52d7bad33b9f41b9111a6b54699209020c6."
+
+  - id: "SRC-HONDA-HPI-OM-32K45B100-2021"
+    title: "CBR150R/CBR150RA Owner's Manual 32K45B100_eng"
+    type: "manual"
+    manufacturer: "Honda Motor Co., Ltd."
+    model: "CBR150R / CBR150RA"
+    market: "Philippines"
+    year: 2021
+    url: "https://2rom-prd-data.hondamotopub.com/om/HPI/CBR150R/2021/CBR150R_32K45B1XX_0.pdf"
+    local_file: null
+    primary_or_secondary: "primary"
+    evidence_level: "A"
+    notes: "Official Honda MotoPub owner manual. Copyright 2020; PDF created 2021-04-09. Country code IV PH. Accessed 2026-09-14. SHA-256 62e6999a5109459dea0dd7379055286ae23b2d0a6b83eaa6a0813a273d5b23ad."
+
+  - id: "SRC-HONDA-HVN-OM-00X4F-K45-F000-2021"
+    title: "CBR150RA Vietnamese Owner's Manual 00X4F-K45-F000"
+    type: "manual"
+    manufacturer: "Honda Motor Co., Ltd."
+    model: "CBR150RA"
+    market: "Vietnam"
+    year: 2021
+    url: "https://cdn.honda.com.vn/motorbike-manual/October2021/EbMj0ueSu11yfSVPShcP.pdf"
+    local_file: null
+    primary_or_secondary: "primary"
+    evidence_level: "A"
+    notes: "Official Honda Vietnam owner manual. PDF title K45R OM VN; created 2021-10-05. Accessed 2026-09-14. SHA-256 caba7f1166f787c9c6e84e40b3ad50edf6c46c4210f2cc4ffb73cfad7445fa13."
+
+  - id: "SRC-HONDA-AHJ-PC-18K45GI2-2018"
+    title: "CBR150R/CBR150RA Parts Catalog 18K45GI2"
+    type: "parts_catalog"
+    manufacturer: "Honda Motor Co., Ltd."
+    model: "CBR150RG / CBR150RJ / CBR150RK / CBR150RAK"
+    market: "Indonesia"
+    year: "2016-2018"
+    url: "https://2rom-prd-data.hondamotopub.com/pc/AHJ/CBR150R/2018/PC_CBR150R.pdf"
+    local_file: null
+    primary_or_secondary: "primary"
+    evidence_level: "A"
+    notes: "Official Honda MotoPub parts catalog, revision 2, dated 2018-08-20; first edition 2016-01-10. Accessed 2026-09-14. SHA-256 c1cdda5f14d5dd106da7ed0af98d9df30c417e2f5b2c2e28ef3605569067d4c7."
+
+  - id: "SRC-HONDA-AHJ-PC-18K45B1AJ-2020"
+    title: "CBR150R/CBR150RA Parts Catalog 18K45B1AJ"
+    type: "parts_catalog"
+    manufacturer: "Honda Motor Co., Ltd."
+    model: "CBR150RM / CBR150RAM"
+    market: "Indonesia"
+    year: 2020
+    url: "https://2rom-prd-data.hondamotopub.com/pc/AHJ/CBR150R/2021/PC_CBR150R_%282021%29.pdf"
+    local_file: null
+    primary_or_secondary: "primary"
+    evidence_level: "A"
+    notes: "Official Honda MotoPub parts catalog, revision 1, dated 2020-10-20. Accessed 2026-09-14. SHA-256 3eb70ee45caad4f45ff4556ca1f02a50e77c359c7a6f368afd19a5213766f4fe."
+
+  - id: "SRC-HONDA-BSH-OM-32K45D200-2024"
+    title: "CBR150RA Owner's Manual 32K45D200_eng"
+    type: "manual"
+    manufacturer: "Honda Motor Co., Ltd."
+    model: "CBR150RA"
+    market: "Thailand / Malaysia"
+    year: 2024
+    url: "https://boonsiewhonda.com.my/wp-content/uploads/2026/04/CBR150R-Owner_s-Manual-K45X.pdf"
+    local_file: null
+    primary_or_secondary: "primary"
+    evidence_level: "A"
+    notes: "OEM owner manual hosted by official Malaysian Honda distributor Boon Siew Honda. Copyright 2024; PDF modified 2025-02-28. Destination codes TH, IV TH, MA, IV MA, VIII MA. Accessed 2026-09-14. SHA-256 4bf29215266dc7dd23191399f49d0d17296e6bc4d1ee3f15048ed3889cf999b9."
+
+  - id: "SRC-HONDA-BSH-WEB-CBR150R-2026"
+    title: "Honda CBR150R Product Page"
+    type: "manufacturer_page"
+    manufacturer: "Boon Siew Honda"
+    model: "CBR150R"
+    market: "Malaysia"
+    year: 2026
+    url: "https://boonsiewhonda.com.my/product/honda-cbr150r/"
+    local_file: null
+    primary_or_secondary: "primary"
+    evidence_level: "A"
+    notes: "Official Malaysian Honda distributor product page. Current-page snapshot accessed 2026-09-14; specifications may change without notice."
+
+  - id: "SRC-HONDA-HVN-WEB-CBR150R-2026"
+    title: "Honda Vietnam CBR150R Product Comparison Specification"
+    type: "manufacturer_page"
+    manufacturer: "Honda Vietnam"
+    model: "CBR150R"
+    market: "Vietnam"
+    year: 2026
+    url: "https://www.honda.com.vn/xe-may/so-sanh?category=3&sp=%5B%22cbr150r%22%5D&version=61"
+    local_file: null
+    primary_or_secondary: "primary"
+    evidence_level: "A"
+    notes: "Official current product comparison page. Accessed 2026-09-14; page does not expose an explicit model-year identifier."
+
+  - id: "SRC-HONDA-HPH-BROCHURE-CBR150R-2025"
+    title: "The New CBR150R Specification Brochure"
+    type: "manufacturer_page"
+    manufacturer: "Honda Philippines, Inc."
+    model: "CBR150R"
+    market: "Philippines"
+    year: 2025
+    url: "https://cms.hondaph.com/files/products/683d082df0072.pdf"
+    local_file: null
+    primary_or_secondary: "primary"
+    evidence_level: "A"
+    notes: "Official Honda Philippines product brochure discovered through the manufacturer site. Accessed through indexed web content on 2026-09-14; direct TLS certificate validation failed during temporary retrieval, so no local checksum was recorded."
+
+  - id: "SRC-HONDA-CENGKARENG-CATALOG-INDEX-2026"
+    title: "Katalog Suku Cadang Motor Honda"
+    type: "technical_article"
+    manufacturer: "Honda Cengkareng"
+    model: "Multiple Honda models including CBR150R"
+    market: "Indonesia"
+    year: 2026
+    url: "https://www.hondacengkareng.com/katalog-suku-cadang-motor-honda/"
+    local_file: null
+    primary_or_secondary: "secondary"
+    evidence_level: "C"
+    notes: "Authorized-dealer catalog index used as a discovery aid for KPP, K45A, K45G, K45N, and K45R labels. Its generation/year mapping remains candidate evidence until reconciled with individual Honda catalogs. Accessed 2026-09-14."
+
+  - id: "SRC-HONDA-CENGKARENG-PC-18KPPB02-2011"
+    title: "CBR150R Parts Catalog 18KPPB02"
+    type: "parts_catalog"
+    manufacturer: "Honda Motor Co., Ltd."
+    model: "CBR150RC"
+    market: "Indonesia / imported model"
+    year: 2011
+    url: "https://www.hondacengkareng.com/wp-content/uploads/2016/02/Katalog-Suku-Cadang-Honda-CBR-150R-CBU.pdf"
+    local_file: null
+    primary_or_secondary: "secondary"
+    evidence_level: "C"
+    notes: "Honda-authored parts catalog mirrored by an authorized dealer rather than retrieved from a Honda MotoPub origin. Edition 1 dated 2011-05-20. Use as candidate evidence pending an official-origin copy. Accessed 2026-09-14."
+
+  - id: "SRC-HONDA-CENGKARENG-PC-18K45FI1-2014"
+    title: "CBR150RF Parts Catalog 18K45FI1"
+    type: "parts_catalog"
+    manufacturer: "Honda Motor Co., Ltd."
+    model: "CBR150RF"
+    market: "Indonesia"
+    year: 2014
+    url: "https://www.hondacengkareng.com/wp-content/uploads/2016/02/Katalog-Suku-Cadang-CBR-150R.pdf"
+    local_file: null
+    primary_or_secondary: "secondary"
+    evidence_level: "C"
+    notes: "Honda-authored parts catalog mirrored by an authorized dealer. Edition 1 dated 2014-07-20. Use as candidate evidence pending an official-origin copy. Accessed 2026-09-14."
