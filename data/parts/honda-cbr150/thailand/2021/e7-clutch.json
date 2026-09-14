@@ -1,0 +1,721 @@
+{
+  "schema_version": "0.1",
+  "record_schema": "../../../../../specs/schemas/part-record.schema.json",
+  "dataset_id": "DATASET-HONDA-CBR150-TH-2021-E7",
+  "status": "working",
+  "scope": "Thai-market CBR150R model year 2021, PEC E-7 clutch. Automated source responses observed 2026-09-14 and reviewed against all 18 exploded-view references. Prices are intentionally excluded.",
+  "records": [
+    {
+      "id": "PART-HONDA-22100-K45-NL1-TH-2021-E7",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-7 CLUTCH",
+        "reference_number": "1",
+        "page": null
+      },
+      "part_number": "22100-K45-NL1",
+      "description": "เรือนคลัตช์ตัวนอก",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [],
+      "status": "verified",
+      "notes": "Physical dimensions, material, mass, tolerances, and functional specifications remain unknown. The mapped secondary clutch assembly has a different part identity or representation at this position; compatibility is not inferred."
+    },
+    {
+      "id": "PART-HONDA-22105-K56-N00-TH-2021-E7",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-7 CLUTCH",
+        "reference_number": "2",
+        "page": null
+      },
+      "part_number": "22105-K56-N00",
+      "description": "ปลอกรองเรือนคลัตช์ตัวนอก",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [],
+      "status": "verified",
+      "notes": "Physical dimensions, material, mass, tolerances, and functional specifications remain unknown."
+    },
+    {
+      "id": "PART-HONDA-22121-K45-NL1-TH-2021-E7",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-7 CLUTCH",
+        "reference_number": "3",
+        "page": null
+      },
+      "part_number": "22121-K45-NL1",
+      "description": "เรือนคลัตช์ตัวกลาง",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [],
+      "status": "verified",
+      "notes": "Physical dimensions, material, mass, tolerances, and functional specifications remain unknown. The mapped secondary clutch assembly has a different part identity or representation at this position; compatibility is not inferred."
+    },
+    {
+      "id": "PART-HONDA-22125-MJ8-010-TH-2021-E7",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-7 CLUTCH",
+        "reference_number": "4",
+        "page": null
+      },
+      "part_number": "22125-MJ8-010",
+      "description": "แหวนรองสปริง",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [],
+      "status": "verified",
+      "notes": "Physical dimensions, material, mass, tolerances, and functional specifications remain unknown. The mapped secondary clutch assembly has a different part identity or representation at this position; compatibility is not inferred."
+    },
+    {
+      "id": "PART-HONDA-22210-K45-305-TH-2021-E7",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-7 CLUTCH",
+        "reference_number": "5",
+        "page": null
+      },
+      "part_number": "22210-K45-305",
+      "description": "ชุดแผ่นคลัตช์",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [],
+      "status": "verified",
+      "notes": "Physical dimensions, material, mass, tolerances, and functional specifications remain unknown. The mapped secondary clutch assembly has a different part identity or representation at this position; compatibility is not inferred."
+    },
+    {
+      "id": "PART-HONDA-22350-K45-NL1-TH-2021-E7",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-7 CLUTCH",
+        "reference_number": "6",
+        "page": null
+      },
+      "part_number": "22350-K45-NL1",
+      "description": "แผ่นกดคลัตช์",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [],
+      "status": "verified",
+      "notes": "Physical dimensions, material, mass, tolerances, and functional specifications remain unknown. The mapped secondary clutch assembly has a different part identity or representation at this position; compatibility is not inferred."
+    },
+    {
+      "id": "PART-HONDA-22361-K45-NL1-TH-2021-E7",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-7 CLUTCH",
+        "reference_number": "7",
+        "page": null
+      },
+      "part_number": "22361-K45-NL1",
+      "description": "แผ่นยกคลัตช์",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [],
+      "status": "verified",
+      "notes": "Physical dimensions, material, mass, tolerances, and functional specifications remain unknown. The mapped secondary clutch assembly has a different part identity or representation at this position; compatibility is not inferred."
+    },
+    {
+      "id": "PART-HONDA-22401-K45-NL1-TH-2021-E7",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-7 CLUTCH",
+        "reference_number": "8",
+        "page": null
+      },
+      "part_number": "22401-K45-NL1",
+      "description": "สปริงคลัตช์",
+      "quantity": 3,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [],
+      "status": "verified",
+      "notes": "Physical dimensions, material, mass, tolerances, and functional specifications remain unknown. The mapped secondary clutch assembly has a different part identity or representation at this position; compatibility is not inferred."
+    },
+    {
+      "id": "PART-HONDA-22402-KPM-850-TH-2021-E7",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-7 CLUTCH",
+        "reference_number": "9",
+        "page": null
+      },
+      "part_number": "22402-KPM-850",
+      "description": "แหวนสปริง",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [],
+      "status": "verified",
+      "notes": "Physical dimensions, material, mass, tolerances, and functional specifications remain unknown."
+    },
+    {
+      "id": "PART-HONDA-22849-K15-900-TH-2021-E7",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-7 CLUTCH",
+        "reference_number": "10",
+        "page": null
+      },
+      "part_number": "22849-K15-900",
+      "description": "ตัวกดคลัตช์",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [],
+      "status": "verified",
+      "notes": "Physical dimensions, material, mass, tolerances, and functional specifications remain unknown."
+    },
+    {
+      "id": "PART-HONDA-23121-K56-N00-TH-2021-E7",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-7 CLUTCH",
+        "reference_number": "11",
+        "page": null
+      },
+      "part_number": "23121-K56-N00",
+      "description": "เฟืองขับขั้นต้น A (23 ฟัน)(สีขาว)",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [
+        {
+          "parameter_id": "catalog.reported_tooth_count",
+          "parameter": {
+            "value": 23,
+            "unit": "1",
+            "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+            "evidence_level": "A",
+            "value_class": "factory",
+            "method": "factory_spec",
+            "status": "verified",
+            "notes": "The Thai part description explicitly reports 23 teeth."
+          },
+          "locator": {
+            "page": null,
+            "section": "E-7 reference 11"
+          }
+        }
+      ],
+      "status": "verified",
+      "notes": null
+    },
+    {
+      "id": "PART-HONDA-23122-K56-N00-TH-2021-E7",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-7 CLUTCH",
+        "reference_number": "11",
+        "page": null
+      },
+      "part_number": "23122-K56-N00",
+      "description": "เฟืองขับขั้นต้น B 23 ฟัน สีน้ำเงิน",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [
+        {
+          "parameter_id": "catalog.reported_tooth_count",
+          "parameter": {
+            "value": 23,
+            "unit": "1",
+            "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+            "evidence_level": "A",
+            "value_class": "factory",
+            "method": "factory_spec",
+            "status": "verified",
+            "notes": "The Thai part description explicitly reports 23 teeth."
+          },
+          "locator": {
+            "page": null,
+            "section": "E-7 reference 11"
+          }
+        }
+      ],
+      "status": "verified",
+      "notes": null
+    },
+    {
+      "id": "PART-HONDA-23123-K56-N00-TH-2021-E7",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-7 CLUTCH",
+        "reference_number": "11",
+        "page": null
+      },
+      "part_number": "23123-K56-N00",
+      "description": "เฟืองขับขั้นต้น C (23 ฟัน)(สีเหลือง",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [
+        {
+          "parameter_id": "catalog.reported_tooth_count",
+          "parameter": {
+            "value": 23,
+            "unit": "1",
+            "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+            "evidence_level": "A",
+            "value_class": "factory",
+            "method": "factory_spec",
+            "status": "verified",
+            "notes": "The Thai part description explicitly reports 23 teeth."
+          },
+          "locator": {
+            "page": null,
+            "section": "E-7 reference 11"
+          }
+        }
+      ],
+      "status": "verified",
+      "notes": null
+    },
+    {
+      "id": "PART-HONDA-90050-KFL-850-TH-2021-E7",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-7 CLUTCH",
+        "reference_number": "12",
+        "page": null
+      },
+      "part_number": "90050-KFL-850",
+      "description": "โบลต์หน้าแปลนพิเศษ่่่่่่",
+      "quantity": 3,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [],
+      "status": "verified",
+      "notes": "Physical dimensions, material, mass, tolerances, and functional specifications remain unknown."
+    },
+    {
+      "id": "PART-HONDA-90202-KRM-840-TH-2021-E7",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-7 CLUTCH",
+        "reference_number": "13",
+        "page": null
+      },
+      "part_number": "90202-KRM-840",
+      "description": "น๊อตพิเศษหน้าแปลน, 14 มม.",
+      "quantity": 2,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [
+        {
+          "parameter_id": "catalog.reported_size",
+          "parameter": {
+            "value": "14",
+            "unit": "mm",
+            "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+            "evidence_level": "A",
+            "value_class": "factory",
+            "method": "factory_spec",
+            "status": "verified",
+            "notes": "Reported in the part description; exact dimensional semantics are not inferred."
+          },
+          "locator": {
+            "page": null,
+            "section": "E-7 reference 13"
+          }
+        }
+      ],
+      "status": "verified",
+      "notes": null
+    },
+    {
+      "id": "PART-HONDA-90401-KY4-901-TH-2021-E7",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-7 CLUTCH",
+        "reference_number": "14",
+        "page": null
+      },
+      "part_number": "90401-KY4-901",
+      "description": "แหวนรอง, 17 มม.",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [
+        {
+          "parameter_id": "catalog.reported_size",
+          "parameter": {
+            "value": "17",
+            "unit": "mm",
+            "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+            "evidence_level": "A",
+            "value_class": "factory",
+            "method": "factory_spec",
+            "status": "verified",
+            "notes": "Reported in the part description; exact dimensional semantics are not inferred."
+          },
+          "locator": {
+            "page": null,
+            "section": "E-7 reference 14"
+          }
+        }
+      ],
+      "status": "verified",
+      "notes": null
+    },
+    {
+      "id": "PART-HONDA-90405-KTT-900-TH-2021-E7",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-7 CLUTCH",
+        "reference_number": "15",
+        "page": null
+      },
+      "part_number": "90405-KTT-900",
+      "description": "แหวนรอง, 17 มม.",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [
+        {
+          "parameter_id": "catalog.reported_size",
+          "parameter": {
+            "value": "17",
+            "unit": "mm",
+            "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+            "evidence_level": "A",
+            "value_class": "factory",
+            "method": "factory_spec",
+            "status": "verified",
+            "notes": "Reported in the part description; exact dimensional semantics are not inferred."
+          },
+          "locator": {
+            "page": null,
+            "section": "E-7 reference 15"
+          }
+        }
+      ],
+      "status": "verified",
+      "notes": null
+    },
+    {
+      "id": "PART-HONDA-90434-K56-N00-TH-2021-E7",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-7 CLUTCH",
+        "reference_number": "16",
+        "page": null
+      },
+      "part_number": "90434-K56-N00",
+      "description": "แหวนรอง, 20 มม.",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [
+        {
+          "parameter_id": "catalog.reported_size",
+          "parameter": {
+            "value": "20",
+            "unit": "mm",
+            "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+            "evidence_level": "A",
+            "value_class": "factory",
+            "method": "factory_spec",
+            "status": "verified",
+            "notes": "Reported in the part description; exact dimensional semantics are not inferred."
+          },
+          "locator": {
+            "page": null,
+            "section": "E-7 reference 16"
+          }
+        }
+      ],
+      "status": "verified",
+      "notes": null
+    },
+    {
+      "id": "PART-HONDA-90462-KWW-740-TH-2021-E7",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-7 CLUTCH",
+        "reference_number": "17",
+        "page": null
+      },
+      "part_number": "90462-KWW-740",
+      "description": "แหวนรอง, 14.1 มม.",
+      "quantity": 2,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [
+        {
+          "parameter_id": "catalog.reported_size",
+          "parameter": {
+            "value": "14.1",
+            "unit": "mm",
+            "source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+            "evidence_level": "A",
+            "value_class": "factory",
+            "method": "factory_spec",
+            "status": "verified",
+            "notes": "Reported in the part description; exact dimensional semantics are not inferred."
+          },
+          "locator": {
+            "page": null,
+            "section": "E-7 reference 17"
+          }
+        }
+      ],
+      "status": "verified",
+      "notes": null
+    },
+    {
+      "id": "PART-HONDA-91007-KE1-003-TH-2021-E7",
+      "manufacturer": "Honda",
+      "catalog_source_id": "SRC-HONDA-THA-PEC-CBR150R-2021-2026",
+      "catalog_locator": {
+        "block": "E-7 CLUTCH",
+        "reference_number": "18",
+        "page": null
+      },
+      "part_number": "91007-KE1-003",
+      "description": "ลูกปืนตลับ, 6903",
+      "quantity": 1,
+      "applicability": [
+        {
+          "model": "CBR150R",
+          "market": "Thailand",
+          "year": 2021,
+          "serial_range": null,
+          "area_code": null,
+          "notes": "Selected through the Thai Honda PEC model-year interface; model code was not exposed."
+        }
+      ],
+      "supersedes": [],
+      "superseded_by": [],
+      "attributes": [],
+      "status": "verified",
+      "notes": "6903 is preserved as a bearing designation; encoded dimensions are not expanded."
+    }
+  ],
+  "unresolved_references": [
+    {
+      "reference_number": null,
+      "status": "disputed",
+      "notes": "PEC E-7 maps by assembly content to secondary E-8 CLUTCH, but major K45-NL1 versus K56-Nxx part identities and kit-versus-individual plate representation differ. Exact model-code, serial, revision, and compatibility relationship remain unknown."
+    }
+  ]
+}
+

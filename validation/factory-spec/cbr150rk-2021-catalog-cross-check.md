@@ -1,4 +1,4 @@
-# CBR150RK 2021 Catalog Cross-check — First Four Assemblies
+# Thai CBR150R 2021 PEC vs CBR150RK Secondary Catalog Cross-check
 
 Date: 2026-09-14  
 Status: working comparison; not a compatibility determination
@@ -19,6 +19,7 @@ Rows are matched by the pair `(reference_number, part_number)`. Punctuation-only
 | PEC E-4 / secondary E-4 | 12 | 12 | 9 | All three non-exact pairs are punctuation-only forms at references 10–12; removing the final separator yields the same character sequence. Quantities are established only by PEC. |
 | PEC E-5 / secondary E-5 | 3 | 3 | 3 | Exact reference and part-number agreement for every row. Quantities are established only by PEC. |
 | PEC E-6 / secondary E-6 | 19 | 19 | 16 | References 18–19 differ only in dash formatting. Reference 6 conflicts: PEC `11394-K56-V50`; secondary `11394-K56-N00`. |
+| PEC E-7 / secondary E-8 | 20 | 19 | 10 shared part numbers | Assembly mapping is supported by clutch descriptions and shared identities, but reference numbering shifts and major K45-NL1/K56-Nxx identities plus kit-vs-individual plate representation differ. |
 
 ## Source-specific block numbering
 
@@ -30,6 +31,7 @@ The Thai Honda PEC 2021 page exposes 18 engine images numbered continuously E-1 
 - A different part number is a source conflict or applicability difference until catalog revision, serial range, and model-code scope are reconciled.
 - The secondary reference-20 observation is candidate evidence only and does not resolve the Thai Honda PEC record to level A.
 - Alternative rows are preserved independently; no supersession direction is inferred.
+- The PEC interface labels its selection only as CBR150R model year 2021; it does not expose `CBR150RK`. The E-7/E-8 clutch differences therefore challenge, rather than prove, exact model-code equivalence between the two sources.
 
 ## Next checks
 
@@ -38,3 +40,4 @@ The Thai Honda PEC 2021 page exposes 18 engine images numbered continuously E-1 
 3. Re-check E-2 reference 5 and E-3 reference 11 in an official parts catalog applicable to the exact Thai model code.
 4. Pair PEC E-6 onward to the secondary categories by assembly content before comparing part rows.
 5. Resolve the E-6 reference-6 gasket conflict using catalog revision/serial applicability; do not infer supersession from the suffix.
+6. Obtain an explicit model-code or serial applicability statement for the Thai PEC 2021 selection before treating it as the CBR150RK catalog group.

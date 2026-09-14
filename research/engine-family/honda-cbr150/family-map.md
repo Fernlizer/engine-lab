@@ -16,6 +16,10 @@ This map uses catalog model identities as the stable starting point. KPP/K45 ali
 
 These rows prove catalog identities, not yet the final mechanical generation boundaries. A serial prefix is not promoted to a formal engine code without explicit source wording.
 
+## Thai PEC 2021 applicability boundary
+
+The Thai Honda PEC interface currently identifies the selected vehicle only as `CBR150R` model year `2021`; no model code or serial range is exposed in the observed workflow. Its PEC E-7 clutch maps by assembly content to the secondary CBR150RK E-8 clutch, but major part identities differ. This evidence must not be used to assign the Thai PEC selection to the CBR150RK/RAK catalog group until an explicit applicability source is found.
+
 ## Per-generation parameter matrix
 
 Create one evidence-linked record per claim rather than compressing conflicts into a single cell.

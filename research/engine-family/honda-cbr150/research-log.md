@@ -113,3 +113,14 @@ Use one entry per research session or material decision. Do not place unsupporte
 - Unknowns: catalog revision/serial applicability behind the gasket conflict, all dimensional-axis conventions, thread pitches, materials, tolerances, and seal specifications beyond the reported strings
 - Decisions: use the PEC part identity for the Thai verified record; retain the secondary identity as a conflict; infer no supersession; preserve ten size strings as factory-reported values without assigning axes
 - Follow-up: inspect PEC E-7 contents and map it to the correct secondary assembly before row-level comparison
+
+## 2026-09-14 — Content-based PEC E-7 clutch mapping
+
+- Researcher: Codex
+- Question: Which secondary assembly corresponds to PEC E-7 when block numbers are explicitly ignored?
+- Sources added or reviewed: 18 reference-specific PEC E-7 responses producing 20 rows, plus every secondary engine-category candidate for CBR150RK 2021
+- Findings: part descriptions identify PEC E-7 as clutch; secondary E-8 is the only candidate with shared contents, including ten shared part numbers; PEC reports 23 teeth for three primary-drive-gear alternatives, five explicit millimetre size strings, all quantities, and bearing designation 6903
+- Conflicts: PEC uses several K45-NL1 identities and one clutch-plate kit while the secondary source uses K56-Nxx identities and individually listed plates; only one shared part remains at the same reference number because the list structure shifts
+- Unknowns: exact model code/serial range behind the Thai PEC 2021 selection, compatibility between K45-NL1 and K56-Nxx components, plate count and dimensions inside the PEC kit, bearing dimensions encoded by 6903, materials, masses, spring rates, and tolerances
+- Decisions: map PEC E-7 to secondary E-8 at assembly level only; verify PEC rows for the Thai PEC selection; do not claim model-code equivalence, interchangeability, or supersession
+- Follow-up: obtain model-code/serial applicability evidence and map PEC E-8 by contents before comparing its rows
